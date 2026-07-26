@@ -1,0 +1,1501 @@
+tipo_exame;prioridade;origem_paciente;hora_do_dia;dia_da_semana;is_final_semana;tempo_espera_sala_min;tempo_realizacao_min;tempo_espera_laudo_min;gargalo_real;probabilidade_gargalo
+Ultrassom;Eletivo;Pronto-Socorro;20;3;0;19.4;20.1;46.1;0;0.07
+Ultrassom;Eletivo;Pronto-Socorro;0;3;0;23.1;19.4;57.2;1;0.94
+ECG;Eletivo;Internação (Leito);7;1;0;12.2;9.0;34.3;1;0.93
+Ultrassom;Eletivo;Ambulatório;18;4;0;15.5;20.2;48.4;0;0.02
+Ressonância;Eletivo;Internação (Leito);11;5;1;30.5;36.7;105.0;0;0.01
+Ultrassom;Eletivo;Internação (Leito);5;3;0;19.4;18.9;46.7;0;0.11
+Ressonância;Eletivo;Pronto-Socorro;17;6;1;42.7;36.7;132.9;0;0.16
+Ressonância;Eletivo;Pronto-Socorro;8;0;0;86.7;34.4;352.0;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;4;3;0;38.3;34.3;122.7;0;0.01
+Ultrassom;Urgência;Internação (Leito);21;4;0;22.3;23.2;39.4;0;0.15
+Ultrassom;Eletivo;Pronto-Socorro;3;1;0;31.6;19.8;80.9;1;0.99
+Tomografia;Eletivo;Internação (Leito);2;4;0;36.4;15.4;102.7;1;0.98
+Ressonância;Eletivo;Internação (Leito);1;5;1;39.0;34.4;140.3;0;0.31
+Tomografia;Urgência;Pronto-Socorro;13;0;0;11.9;13.6;63.9;0;0.01
+Tomografia;Urgência;Pronto-Socorro;15;2;0;47.7;14.1;188.8;1;1.0
+ECG;Urgência;Internação (Leito);22;5;1;11.3;14.8;26.2;0;0.14
+ECG;Eletivo;Pronto-Socorro;22;6;1;21.5;8.6;57.0;1;0.98
+Tomografia;Eletivo;Pronto-Socorro;16;1;0;55.7;16.4;234.8;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;22;3;0;22.6;17.2;47.9;0;0.09
+ECG;Eletivo;Pronto-Socorro;2;4;0;16.1;10.5;61.6;1;1.0
+Tomografia;Eletivo;Internação (Leito);18;2;0;26.6;12.3;91.9;0;0.18
+Ressonância;Eletivo;Ambulatório;9;2;0;104.7;39.7;356.5;1;1.0
+Ressonância;Urgência;Ambulatório;0;2;0;16.9;38.6;60.3;0;0.0
+ECG;Urgência;Pronto-Socorro;11;2;0;24.5;10.5;111.8;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;0;2;0;31.9;19.3;120.7;1;0.99
+Tomografia;Eletivo;Pronto-Socorro;19;4;0;27.6;13.1;108.6;1;0.98
+Ressonância;Eletivo;Ambulatório;22;5;1;30.4;31.4;126.9;0;0.03
+Ultrassom;Eletivo;Pronto-Socorro;22;4;0;15.5;15.9;46.0;0;0.01
+Tomografia;Emergência (Vermelho);Pronto-Socorro;4;1;0;9.7;16.1;34.0;0;0.0
+ECG;Eletivo;Pronto-Socorro;19;6;1;10.3;9.0;29.9;0;0.2
+Tomografia;Eletivo;Pronto-Socorro;20;6;1;22.5;16.0;110.5;1;0.98
+Tomografia;Eletivo;Internação (Leito);12;3;0;24.6;16.4;108.7;1;1.0
+ECG;Urgência;Pronto-Socorro;16;0;0;29.7;10.3;61.3;1;0.99
+Tomografia;Emergência (Vermelho);Ambulatório;0;0;0;13.2;14.3;35.2;0;0.03
+Tomografia;Urgência;Internação (Leito);15;2;0;44.3;11.2;163.0;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;18;0;0;20.9;14.6;100.2;1;0.79
+Ressonância;Urgência;Internação (Leito);7;6;1;24.1;32.7;87.8;0;0.0
+Tomografia;Eletivo;Internação (Leito);9;5;1;38.8;17.2;82.0;1;0.61
+Ultrassom;Eletivo;Internação (Leito);21;2;0;25.1;19.5;41.3;0;0.23
+Tomografia;Urgência;Internação (Leito);14;1;0;36.5;17.8;151.2;1;0.99
+Ultrassom;Emergência (Vermelho);Ambulatório;3;6;1;3.5;19.3;10.4;0;0.0
+ECG;Eletivo;Ambulatório;11;4;0;33.1;12.3;97.4;1;0.98
+Ultrassom;Eletivo;Ambulatório;12;2;0;15.3;22.0;80.6;1;0.86
+Ultrassom;Eletivo;Internação (Leito);13;1;0;27.0;18.5;54.6;1;0.78
+Ressonância;Emergência (Vermelho);Ambulatório;4;3;0;7.3;35.3;39.9;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;4;4;0;42.4;37.8;196.0;1;0.99
+ECG;Eletivo;Pronto-Socorro;9;3;0;32.0;10.2;106.6;1;1.0
+Tomografia;Urgência;Pronto-Socorro;1;3;0;19.1;19.9;58.3;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;21;2;0;16.3;18.5;76.2;0;0.07
+ECG;Urgência;Internação (Leito);18;4;0;7.2;12.1;33.2;0;0.3
+Tomografia;Urgência;Internação (Leito);20;4;0;11.9;16.0;52.7;0;0.01
+ECG;Eletivo;Ambulatório;20;3;0;41.3;11.6;85.3;1;0.99
+ECG;Eletivo;Pronto-Socorro;17;4;0;51.1;8.5;109.3;1;1.0
+Ressonância;Eletivo;Ambulatório;22;6;1;27.1;35.5;125.0;0;0.02
+ECG;Eletivo;Internação (Leito);17;2;0;33.2;15.5;92.9;1;0.96
+ECG;Emergência (Vermelho);Pronto-Socorro;15;0;0;9.2;8.8;24.4;0;0.02
+Tomografia;Eletivo;Pronto-Socorro;16;1;0;78.9;16.1;324.7;1;1.0
+Tomografia;Eletivo;Ambulatório;4;1;0;23.8;18.3;93.1;0;0.21
+Tomografia;Urgência;Pronto-Socorro;4;5;1;22.1;12.0;98.8;1;0.27
+Ultrassom;Urgência;Internação (Leito);11;1;0;24.6;24.0;82.9;1;0.88
+Ultrassom;Urgência;Internação (Leito);10;4;0;30.9;18.2;99.0;1;1.0
+Ressonância;Eletivo;Internação (Leito);9;4;0;96.6;34.8;363.4;1;1.0
+Ressonância;Eletivo;Internação (Leito);0;5;1;28.2;34.9;98.2;0;0.01
+Tomografia;Eletivo;Ambulatório;1;5;1;31.1;14.8;97.7;1;0.84
+Ressonância;Eletivo;Internação (Leito);18;4;0;30.1;36.4;123.1;0;0.01
+Tomografia;Urgência;Internação (Leito);22;6;1;11.7;15.9;71.6;0;0.0
+ECG;Eletivo;Pronto-Socorro;7;5;1;12.8;15.0;42.9;1;0.92
+Ressonância;Urgência;Pronto-Socorro;3;1;0;20.0;34.7;94.0;0;0.0
+Ultrassom;Emergência (Vermelho);Ambulatório;14;4;0;17.5;21.5;60.9;1;0.44
+Tomografia;Eletivo;Internação (Leito);11;2;0;57.9;9.9;264.0;1;1.0
+Ressonância;Emergência (Vermelho);Internação (Leito);21;4;0;7.8;33.9;34.1;0;0.0
+Ressonância;Urgência;Pronto-Socorro;8;3;0;69.9;35.3;221.9;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;14;3;0;61.0;14.1;282.8;1;1.0
+Ressonância;Urgência;Pronto-Socorro;5;0;0;21.2;35.3;88.2;0;0.0
+Tomografia;Eletivo;Ambulatório;17;2;0;62.4;15.5;244.0;1;1.0
+Ultrassom;Eletivo;Ambulatório;6;2;0;15.0;18.7;41.4;0;0.02
+Tomografia;Urgência;Ambulatório;13;5;1;20.2;14.0;66.2;0;0.0
+ECG;Eletivo;Pronto-Socorro;11;6;1;11.3;12.4;37.1;1;0.97
+ECG;Eletivo;Ambulatório;20;2;0;14.4;9.8;63.1;1;1.0
+Ressonância;Eletivo;Ambulatório;20;4;0;31.5;34.9;114.7;0;0.0
+Ressonância;Eletivo;Internação (Leito);11;6;1;29.8;32.2;139.0;0;0.05
+Ressonância;Urgência;Pronto-Socorro;9;6;1;21.1;31.1;101.0;0;0.01
+Ressonância;Eletivo;Pronto-Socorro;14;4;0;95.6;32.8;383.7;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;21;1;0;35.7;33.6;145.8;1;0.71
+Tomografia;Eletivo;Internação (Leito);1;2;0;20.0;15.5;87.2;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;14;2;0;63.7;14.1;264.6;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;2;3;0;15.4;21.7;46.1;0;0.03
+Tomografia;Eletivo;Internação (Leito);7;4;0;35.4;13.7;105.4;1;1.0
+Ressonância;Eletivo;Internação (Leito);1;6;1;28.5;33.3;115.3;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;10;2;0;65.8;16.7;294.5;1;1.0
+Ultrassom;Emergência (Vermelho);Ambulatório;12;4;0;4.4;20.3;18.0;0;0.0
+ECG;Eletivo;Internação (Leito);0;0;0;29.2;10.0;85.2;1;0.97
+Ultrassom;Urgência;Internação (Leito);3;3;0;30.4;17.7;23.3;0;0.3
+Ressonância;Emergência (Vermelho);Ambulatório;12;3;0;8.0;32.6;30.0;0;0.0
+Tomografia;Emergência (Vermelho);Pronto-Socorro;13;5;1;4.0;14.8;17.5;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;11;2;0;116.0;36.2;447.7;1;1.0
+ECG;Urgência;Pronto-Socorro;15;4;0;22.8;8.6;49.8;1;0.99
+Ultrassom;Eletivo;Pronto-Socorro;10;0;0;56.1;17.5;159.7;1;1.0
+Ressonância;Urgência;Internação (Leito);13;1;0;26.6;32.2;94.6;0;0.01
+Ultrassom;Urgência;Internação (Leito);4;4;0;22.4;23.1;50.8;0;0.27
+Ressonância;Eletivo;Pronto-Socorro;10;4;0;92.7;32.8;388.8;1;1.0
+Ressonância;Eletivo;Internação (Leito);3;3;0;34.3;32.1;138.3;0;0.04
+Ultrassom;Eletivo;Pronto-Socorro;16;3;0;40.4;22.3;125.6;1;1.0
+Tomografia;Eletivo;Internação (Leito);17;3;0;53.2;13.7;245.8;1;1.0
+Tomografia;Eletivo;Ambulatório;5;2;0;25.1;13.3;107.1;1;0.98
+Ressonância;Eletivo;Internação (Leito);22;4;0;29.5;40.6;146.8;0;0.12
+Ultrassom;Emergência (Vermelho);Internação (Leito);23;3;0;7.8;19.5;50.9;0;0.05
+Ressonância;Eletivo;Ambulatório;5;1;0;40.3;34.5;137.4;0;0.04
+ECG;Urgência;Ambulatório;20;6;1;7.6;12.7;34.8;0;0.27
+Ressonância;Eletivo;Internação (Leito);7;0;0;37.9;37.1;140.6;0;0.06
+Ultrassom;Eletivo;Internação (Leito);7;0;0;14.3;19.3;64.7;1;0.94
+Tomografia;Eletivo;Internação (Leito);4;2;0;23.2;12.7;96.3;0;0.46
+Tomografia;Eletivo;Ambulatório;6;3;0;20.5;16.8;96.2;0;0.11
+Ressonância;Eletivo;Internação (Leito);11;0;0;83.9;37.8;350.1;1;1.0
+Ultrassom;Urgência;Ambulatório;16;6;1;8.9;17.9;26.9;0;0.02
+Tomografia;Emergência (Vermelho);Ambulatório;1;3;0;5.2;10.7;49.7;0;0.02
+Ultrassom;Urgência;Pronto-Socorro;8;4;0;30.2;21.8;105.6;1;1.0
+Ultrassom;Eletivo;Internação (Leito);6;1;0;14.0;16.4;56.9;0;0.15
+Tomografia;Eletivo;Internação (Leito);11;6;1;28.9;13.5;127.6;1;0.98
+Tomografia;Eletivo;Internação (Leito);23;4;0;42.1;11.8;107.5;1;0.97
+Ultrassom;Urgência;Ambulatório;19;3;0;13.6;20.3;31.4;0;0.0
+Ultrassom;Urgência;Pronto-Socorro;11;1;0;28.6;18.3;92.0;1;1.0
+ECG;Eletivo;Internação (Leito);13;4;0;13.6;9.3;80.6;1;1.0
+Tomografia;Eletivo;Internação (Leito);22;4;0;25.5;16.0;94.2;0;0.6
+Ultrassom;Urgência;Pronto-Socorro;5;0;0;8.1;18.6;28.8;0;0.0
+Tomografia;Eletivo;Ambulatório;8;6;1;26.0;15.7;190.2;1;0.99
+Tomografia;Eletivo;Internação (Leito);9;6;1;18.0;17.5;163.9;1;0.89
+Ressonância;Eletivo;Internação (Leito);3;4;0;38.5;32.3;136.7;0;0.09
+Tomografia;Urgência;Pronto-Socorro;17;3;0;32.9;14.0;171.9;1;0.99
+Ressonância;Eletivo;Internação (Leito);1;2;0;33.3;35.6;166.2;1;0.93
+Tomografia;Eletivo;Pronto-Socorro;9;5;1;22.0;16.9;93.1;0;0.08
+Tomografia;Urgência;Ambulatório;1;4;0;15.6;18.3;65.9;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;21;0;0;27.0;13.7;99.8;1;0.99
+ECG;Eletivo;Ambulatório;22;3;0;16.8;10.0;38.7;1;1.0
+Ultrassom;Eletivo;Internação (Leito);8;4;0;43.1;18.8;145.4;1;1.0
+ECG;Eletivo;Internação (Leito);22;5;1;14.5;8.6;33.2;1;0.75
+Ultrassom;Urgência;Ambulatório;13;2;0;9.6;16.5;40.3;0;0.02
+ECG;Eletivo;Internação (Leito);20;5;1;9.6;9.3;45.4;1;0.92
+Tomografia;Eletivo;Internação (Leito);5;0;0;17.7;14.6;86.8;0;0.0
+ECG;Urgência;Internação (Leito);4;5;1;18.2;7.8;27.3;1;0.35
+Tomografia;Eletivo;Internação (Leito);17;2;0;67.7;16.4;298.7;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;19;2;0;22.1;14.1;75.5;0;0.02
+Ressonância;Urgência;Internação (Leito);22;0;0;20.3;35.6;91.7;0;0.0
+Tomografia;Urgência;Pronto-Socorro;1;1;0;11.3;16.1;57.4;0;0.03
+Tomografia;Eletivo;Pronto-Socorro;21;4;0;23.0;14.5;106.3;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;5;2;0;18.2;10.4;80.3;0;0.12
+Ultrassom;Emergência (Vermelho);Pronto-Socorro;4;2;0;5.0;19.6;15.3;0;0.02
+Ressonância;Eletivo;Internação (Leito);14;5;1;31.4;33.0;124.7;0;0.0
+ECG;Eletivo;Ambulatório;10;5;1;12.4;11.8;77.9;1;0.97
+Tomografia;Eletivo;Internação (Leito);3;5;1;21.1;17.5;94.7;0;0.05
+Tomografia;Eletivo;Ambulatório;3;0;0;29.2;12.3;111.2;1;0.97
+Ressonância;Emergência (Vermelho);Internação (Leito);16;4;0;26.9;37.5;107.5;0;0.01
+Tomografia;Urgência;Pronto-Socorro;15;3;0;41.8;18.4;157.1;1;1.0
+Ressonância;Eletivo;Ambulatório;11;0;0;85.6;31.5;344.8;1;1.0
+Ultrassom;Eletivo;Internação (Leito);23;6;1;16.7;17.9;55.7;0;0.31
+Ressonância;Urgência;Internação (Leito);10;3;0;59.7;37.8;210.2;1;1.0
+ECG;Urgência;Pronto-Socorro;20;4;0;12.5;8.7;36.3;1;0.78
+Tomografia;Eletivo;Internação (Leito);5;0;0;27.3;14.6;110.3;1;0.99
+ECG;Eletivo;Internação (Leito);23;3;0;11.3;10.0;39.0;1;0.94
+Ressonância;Eletivo;Pronto-Socorro;19;3;0;36.4;36.6;128.5;0;0.01
+Ultrassom;Urgência;Internação (Leito);17;6;1;12.4;20.7;33.8;0;0.01
+ECG;Urgência;Ambulatório;3;1;0;10.0;7.2;29.7;0;0.12
+ECG;Eletivo;Internação (Leito);16;3;0;35.7;12.2;85.8;1;1.0
+Ultrassom;Eletivo;Internação (Leito);2;4;0;20.4;24.1;53.1;0;0.22
+ECG;Eletivo;Internação (Leito);7;0;0;16.6;10.2;41.0;1;1.0
+Ultrassom;Urgência;Pronto-Socorro;13;3;0;9.6;21.1;87.2;1;0.79
+Ultrassom;Urgência;Pronto-Socorro;0;0;0;20.6;16.5;57.8;1;0.38
+ECG;Urgência;Internação (Leito);10;1;0;25.1;13.1;89.9;1;0.97
+Ressonância;Emergência (Vermelho);Ambulatório;19;0;0;6.8;38.4;30.6;0;0.0
+Ultrassom;Urgência;Pronto-Socorro;14;3;0;32.5;23.1;157.1;1;1.0
+Tomografia;Emergência (Vermelho);Pronto-Socorro;22;1;0;5.8;13.5;25.3;0;0.0
+Tomografia;Eletivo;Internação (Leito);14;5;1;19.2;11.6;75.2;0;0.11
+ECG;Eletivo;Ambulatório;12;0;0;11.9;8.4;56.1;1;0.98
+Ressonância;Urgência;Pronto-Socorro;6;6;1;28.7;35.1;85.3;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;18;6;1;26.1;13.0;107.3;1;0.99
+Tomografia;Urgência;Pronto-Socorro;13;5;1;19.5;13.4;57.0;0;0.0
+Tomografia;Urgência;Internação (Leito);4;4;0;13.9;17.9;55.2;0;0.01
+ECG;Urgência;Ambulatório;18;2;0;14.7;12.1;22.4;0;0.1
+ECG;Emergência (Vermelho);Pronto-Socorro;13;2;0;6.7;10.9;25.8;0;0.05
+Tomografia;Eletivo;Pronto-Socorro;20;2;0;29.6;15.7;149.5;1;0.96
+Ressonância;Eletivo;Ambulatório;18;5;1;34.2;33.5;132.0;0;0.01
+Ultrassom;Urgência;Ambulatório;8;2;0;30.5;19.8;87.2;1;0.98
+ECG;Eletivo;Internação (Leito);16;5;1;13.3;7.4;59.9;1;0.98
+Ultrassom;Eletivo;Internação (Leito);16;4;0;40.4;21.7;132.2;1;1.0
+Tomografia;Urgência;Pronto-Socorro;19;5;1;13.6;13.6;76.9;0;0.0
+ECG;Emergência (Vermelho);Ambulatório;8;6;1;3.4;9.2;10.7;0;0.01
+ECG;Urgência;Pronto-Socorro;19;5;1;7.6;6.5;24.7;0;0.04
+Ressonância;Eletivo;Pronto-Socorro;5;6;1;32.4;34.3;144.8;0;0.22
+Tomografia;Eletivo;Pronto-Socorro;7;3;0;17.7;15.0;87.9;0;0.04
+Tomografia;Urgência;Internação (Leito);23;5;1;13.9;16.3;58.2;0;0.0
+ECG;Emergência (Vermelho);Ambulatório;0;5;1;6.0;12.4;21.8;0;0.11
+ECG;Eletivo;Pronto-Socorro;9;0;0;36.0;8.6;157.7;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;7;0;0;18.5;13.5;99.3;0;0.49
+Ultrassom;Urgência;Internação (Leito);12;2;0;11.8;17.9;39.9;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;0;4;0;30.1;15.0;145.3;1;0.99
+ECG;Eletivo;Pronto-Socorro;15;6;1;17.3;9.4;53.4;1;1.0
+Ressonância;Eletivo;Internação (Leito);23;2;0;40.5;35.8;130.9;0;0.06
+Ultrassom;Eletivo;Ambulatório;22;1;0;16.3;19.9;55.7;0;0.27
+Tomografia;Eletivo;Ambulatório;21;1;0;25.3;18.0;108.2;1;1.0
+Tomografia;Eletivo;Internação (Leito);8;1;0;63.9;15.3;297.9;1;1.0
+Ressonância;Urgência;Internação (Leito);19;0;0;17.4;32.7;65.2;0;0.0
+Ultrassom;Eletivo;Ambulatório;0;1;0;20.1;17.9;68.7;1;0.95
+ECG;Urgência;Internação (Leito);13;1;0;9.0;13.3;21.9;0;0.09
+Ressonância;Urgência;Ambulatório;23;1;0;27.6;33.6;113.1;0;0.05
+Ultrassom;Eletivo;Pronto-Socorro;1;6;1;17.7;21.9;49.4;0;0.1
+Ultrassom;Eletivo;Pronto-Socorro;0;1;0;20.0;20.2;50.5;0;0.14
+Ultrassom;Eletivo;Internação (Leito);7;1;0;17.8;21.5;50.7;0;0.05
+ECG;Eletivo;Pronto-Socorro;3;5;1;11.9;8.7;31.1;0;0.2
+ECG;Eletivo;Pronto-Socorro;8;6;1;14.4;9.5;52.4;1;0.99
+ECG;Eletivo;Pronto-Socorro;9;3;0;28.3;9.3;85.1;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;5;0;0;23.7;20.6;76.8;1;0.96
+Ressonância;Eletivo;Pronto-Socorro;20;4;0;39.7;35.9;140.7;1;0.3
+ECG;Urgência;Pronto-Socorro;16;5;1;17.4;12.6;38.4;1;0.83
+Ultrassom;Eletivo;Internação (Leito);0;4;0;37.2;23.3;62.1;1;0.94
+Ultrassom;Urgência;Internação (Leito);4;3;0;13.0;22.1;27.6;0;0.04
+Ressonância;Urgência;Pronto-Socorro;5;1;0;19.5;34.9;84.3;0;0.0
+ECG;Eletivo;Pronto-Socorro;23;5;1;11.0;7.9;28.1;0;0.21
+Ressonância;Emergência (Vermelho);Ambulatório;4;1;0;6.2;34.0;34.1;0;0.0
+Ressonância;Urgência;Pronto-Socorro;21;0;0;20.9;36.9;106.7;0;0.01
+Ultrassom;Eletivo;Internação (Leito);21;3;0;17.6;22.2;62.6;1;0.98
+Tomografia;Eletivo;Pronto-Socorro;21;4;0;31.4;13.4;108.7;1;1.0
+Ressonância;Urgência;Internação (Leito);11;4;0;50.0;36.6;195.3;1;1.0
+ECG;Eletivo;Internação (Leito);6;5;1;9.3;11.8;28.2;0;0.15
+Ultrassom;Eletivo;Pronto-Socorro;22;2;0;16.5;18.9;58.8;1;0.7
+Ressonância;Emergência (Vermelho);Pronto-Socorro;21;1;0;9.3;37.5;29.3;0;0.0
+Tomografia;Urgência;Ambulatório;9;3;0;37.1;13.2;175.7;1;1.0
+Tomografia;Urgência;Ambulatório;2;1;0;18.9;11.5;64.2;0;0.02
+Ultrassom;Urgência;Internação (Leito);7;0;0;15.8;21.8;49.8;0;0.03
+Tomografia;Eletivo;Internação (Leito);21;2;0;25.1;14.9;103.5;1;0.99
+Ressonância;Eletivo;Internação (Leito);8;4;0;93.0;35.1;351.5;1;1.0
+Ultrassom;Eletivo;Internação (Leito);21;5;1;14.0;26.6;76.1;1;0.83
+Tomografia;Eletivo;Internação (Leito);21;3;0;25.3;18.3;96.5;1;0.65
+Ressonância;Eletivo;Internação (Leito);13;2;0;30.8;36.5;103.6;0;0.0
+Ultrassom;Eletivo;Pronto-Socorro;15;6;1;18.1;19.3;64.2;1;0.84
+Ultrassom;Urgência;Internação (Leito);0;3;0;17.4;18.9;45.4;0;0.07
+Ultrassom;Eletivo;Pronto-Socorro;6;6;1;14.3;17.2;49.4;0;0.01
+Ressonância;Urgência;Internação (Leito);10;3;0;78.3;32.8;251.3;1;1.0
+Tomografia;Emergência (Vermelho);Ambulatório;4;4;0;6.1;18.9;45.4;0;0.0
+Tomografia;Urgência;Pronto-Socorro;14;1;0;36.3;14.6;166.6;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;2;2;0;23.2;14.4;182.3;1;1.0
+Ultrassom;Eletivo;Internação (Leito);5;0;0;18.1;20.2;46.4;0;0.09
+Ultrassom;Urgência;Pronto-Socorro;22;6;1;16.8;23.6;50.0;0;0.03
+Ressonância;Urgência;Ambulatório;11;4;0;73.8;36.8;235.5;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;17;4;0;71.3;11.9;330.7;1;1.0
+Ressonância;Urgência;Pronto-Socorro;0;5;1;22.7;38.9;72.0;0;0.0
+Ultrassom;Eletivo;Internação (Leito);16;4;0;49.4;18.9;130.0;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;8;4;0;77.3;15.2;278.3;1;1.0
+Ressonância;Emergência (Vermelho);Pronto-Socorro;23;4;0;7.8;35.0;43.9;0;0.0
+Ultrassom;Eletivo;Ambulatório;19;2;0;21.1;18.2;63.2;1;0.93
+ECG;Eletivo;Internação (Leito);1;2;0;22.3;8.7;44.4;1;1.0
+Ressonância;Eletivo;Internação (Leito);22;1;0;40.1;33.1;134.2;0;0.08
+Ultrassom;Eletivo;Internação (Leito);19;3;0;34.9;20.6;66.5;1;0.96
+Ressonância;Eletivo;Internação (Leito);15;6;1;33.3;34.2;141.2;0;0.03
+Tomografia;Eletivo;Ambulatório;7;1;0;19.6;18.5;80.4;0;0.08
+Tomografia;Eletivo;Internação (Leito);20;5;1;23.8;14.9;133.0;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;7;2;0;19.6;16.8;113.7;1;0.95
+Ressonância;Eletivo;Pronto-Socorro;9;2;0;100.3;34.9;425.8;1;1.0
+Ultrassom;Eletivo;Internação (Leito);19;6;1;16.7;21.9;49.5;0;0.09
+Ressonância;Eletivo;Internação (Leito);16;4;0;85.3;37.0;324.7;1;1.0
+ECG;Eletivo;Pronto-Socorro;21;6;1;22.9;8.4;34.7;1;0.98
+Ultrassom;Eletivo;Pronto-Socorro;15;5;1;18.8;22.8;42.4;0;0.07
+Ultrassom;Eletivo;Ambulatório;3;2;0;15.0;17.7;54.0;0;0.07
+Tomografia;Eletivo;Internação (Leito);2;6;1;34.7;13.0;94.2;1;0.84
+Ressonância;Eletivo;Internação (Leito);9;2;0;81.6;35.6;340.7;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;21;4;0;22.7;16.7;101.5;1;0.96
+Ultrassom;Eletivo;Internação (Leito);4;1;0;17.4;17.7;74.7;1;0.88
+ECG;Urgência;Internação (Leito);10;1;0;19.2;8.2;71.8;1;1.0
+ECG;Eletivo;Pronto-Socorro;2;0;0;17.2;10.9;57.2;1;0.99
+Tomografia;Urgência;Internação (Leito);23;5;1;16.0;16.6;59.3;0;0.0
+Ultrassom;Urgência;Internação (Leito);21;4;0;15.0;21.0;59.9;0;0.26
+Tomografia;Eletivo;Pronto-Socorro;5;0;0;25.9;12.9;113.6;1;1.0
+Ressonância;Eletivo;Internação (Leito);0;2;0;31.0;34.2;175.2;1;0.91
+Ressonância;Emergência (Vermelho);Internação (Leito);20;4;0;7.4;38.1;32.9;0;0.0
+Tomografia;Eletivo;Internação (Leito);0;4;0;34.6;14.4;122.1;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;11;2;0;52.6;20.1;130.9;1;1.0
+Tomografia;Urgência;Ambulatório;0;5;1;12.2;17.6;72.2;0;0.02
+Tomografia;Eletivo;Pronto-Socorro;9;1;0;63.8;13.6;267.2;1;1.0
+Ressonância;Emergência (Vermelho);Pronto-Socorro;16;6;1;13.6;37.6;27.0;0;0.0
+Ressonância;Emergência (Vermelho);Pronto-Socorro;16;0;0;22.3;34.7;90.8;0;0.0
+Ultrassom;Eletivo;Pronto-Socorro;17;5;1;17.3;17.4;57.6;0;0.68
+Tomografia;Eletivo;Internação (Leito);12;2;0;19.6;16.3;93.0;0;0.0
+ECG;Urgência;Internação (Leito);12;0;0;7.7;6.8;23.8;0;0.02
+Ressonância;Urgência;Ambulatório;20;4;0;24.1;36.3;100.2;0;0.01
+Ressonância;Eletivo;Pronto-Socorro;14;1;0;111.1;40.4;428.6;1;0.97
+Ultrassom;Urgência;Pronto-Socorro;4;6;1;13.2;21.6;34.4;0;0.02
+ECG;Eletivo;Ambulatório;17;2;0;31.3;10.8;120.0;1;1.0
+ECG;Eletivo;Pronto-Socorro;23;4;0;18.4;11.1;35.5;1;0.98
+Ressonância;Urgência;Ambulatório;2;5;1;25.1;34.4;96.9;0;0.0
+Ressonância;Eletivo;Ambulatório;1;3;0;41.9;32.7;164.0;1;0.98
+Ultrassom;Eletivo;Pronto-Socorro;21;4;0;18.9;16.8;48.1;0;0.06
+Ultrassom;Eletivo;Internação (Leito);14;3;0;45.5;20.0;141.4;1;1.0
+ECG;Eletivo;Internação (Leito);19;2;0;11.2;10.5;45.5;1;0.93
+Ressonância;Eletivo;Internação (Leito);16;2;0;79.8;35.4;305.5;1;1.0
+Tomografia;Urgência;Ambulatório;2;3;0;11.5;14.7;49.2;0;0.0
+Tomografia;Urgência;Pronto-Socorro;9;1;0;42.8;19.7;211.2;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;19;4;0;33.2;33.9;115.4;0;0.0
+Ultrassom;Eletivo;Internação (Leito);4;6;1;17.5;19.3;65.6;1;0.89
+Tomografia;Urgência;Ambulatório;9;0;0;47.5;14.8;196.2;1;1.0
+Ultrassom;Eletivo;Internação (Leito);22;3;0;16.9;22.4;79.7;1;0.97
+Ultrassom;Emergência (Vermelho);Ambulatório;5;5;1;7.5;18.4;24.7;0;0.0
+Ressonância;Eletivo;Internação (Leito);7;2;0;38.5;33.4;153.2;1;0.95
+Ressonância;Eletivo;Pronto-Socorro;14;6;1;30.8;35.7;119.4;0;0.01
+ECG;Urgência;Internação (Leito);23;5;1;13.9;11.5;19.3;0;0.09
+Tomografia;Urgência;Pronto-Socorro;5;2;0;13.1;17.4;73.8;0;0.02
+Tomografia;Urgência;Pronto-Socorro;9;6;1;20.3;15.9;56.4;0;0.0
+Tomografia;Eletivo;Ambulatório;1;3;0;21.9;18.5;88.1;0;0.15
+Ultrassom;Eletivo;Pronto-Socorro;23;2;0;17.4;19.3;77.6;1;0.87
+Ressonância;Eletivo;Internação (Leito);1;4;0;29.2;35.3;104.7;0;0.0
+Tomografia;Eletivo;Internação (Leito);5;3;0;20.5;13.0;103.5;1;0.9
+Ultrassom;Urgência;Internação (Leito);15;2;0;30.4;19.0;108.2;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;7;3;0;39.9;38.3;154.6;1;0.99
+Ultrassom;Eletivo;Internação (Leito);4;3;0;23.8;22.2;95.7;1;0.92
+Ultrassom;Urgência;Ambulatório;21;4;0;12.4;20.0;24.8;0;0.03
+Ultrassom;Eletivo;Pronto-Socorro;4;4;0;21.7;22.7;68.7;1;0.95
+ECG;Urgência;Internação (Leito);4;5;1;6.5;8.3;61.9;1;0.9
+Ressonância;Emergência (Vermelho);Internação (Leito);1;1;0;5.8;34.4;45.1;0;0.0
+ECG;Eletivo;Pronto-Socorro;23;1;0;11.7;13.8;68.5;1;0.97
+Tomografia;Urgência;Internação (Leito);21;6;1;14.8;14.8;63.8;0;0.0
+Tomografia;Eletivo;Internação (Leito);3;3;0;27.6;16.2;108.9;1;0.99
+Ressonância;Urgência;Pronto-Socorro;15;2;0;52.3;32.2;208.1;1;1.0
+Tomografia;Emergência (Vermelho);Pronto-Socorro;9;1;0;15.5;14.8;82.5;0;0.01
+ECG;Eletivo;Internação (Leito);0;1;0;13.6;10.1;42.5;1;0.99
+Ultrassom;Urgência;Pronto-Socorro;16;0;0;26.0;20.2;84.2;1;0.97
+Ultrassom;Eletivo;Pronto-Socorro;1;3;0;17.8;19.3;86.1;1;0.93
+Tomografia;Urgência;Internação (Leito);19;3;0;20.1;14.8;76.5;0;0.0
+Tomografia;Eletivo;Internação (Leito);8;4;0;71.7;15.9;337.5;1;1.0
+Ressonância;Eletivo;Internação (Leito);22;2;0;28.4;35.2;100.3;0;0.0
+Ultrassom;Eletivo;Internação (Leito);23;1;0;15.0;21.2;46.6;0;0.05
+Tomografia;Eletivo;Pronto-Socorro;3;3;0;23.2;15.2;124.3;1;1.0
+Ultrassom;Urgência;Internação (Leito);14;0;0;29.3;18.4;123.3;1;0.98
+Tomografia;Emergência (Vermelho);Pronto-Socorro;14;2;0;20.3;16.5;69.5;0;0.04
+Tomografia;Emergência (Vermelho);Internação (Leito);14;6;1;5.2;15.2;16.2;0;0.0
+Ultrassom;Eletivo;Pronto-Socorro;5;6;1;21.6;19.5;51.8;0;0.12
+Ressonância;Eletivo;Pronto-Socorro;21;1;0;35.1;32.4;157.9;1;0.93
+ECG;Eletivo;Internação (Leito);13;4;0;8.6;10.2;34.2;0;0.41
+Ressonância;Urgência;Pronto-Socorro;13;3;0;21.2;32.0;96.9;0;0.01
+Ressonância;Eletivo;Pronto-Socorro;2;4;0;26.1;36.8;111.6;0;0.0
+Ressonância;Urgência;Pronto-Socorro;13;6;1;26.6;35.1;98.1;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;2;0;0;39.5;35.1;147.3;1;0.91
+Ressonância;Eletivo;Pronto-Socorro;6;1;0;33.1;33.0;130.9;0;0.0
+Ressonância;Eletivo;Ambulatório;10;3;0;88.0;32.7;350.2;1;1.0
+ECG;Emergência (Vermelho);Internação (Leito);7;0;0;3.3;13.5;7.0;0;0.04
+Tomografia;Urgência;Ambulatório;22;0;0;13.5;12.6;57.9;0;0.03
+Ressonância;Eletivo;Ambulatório;17;0;0;97.3;32.4;391.0;1;1.0
+Tomografia;Urgência;Internação (Leito);16;4;0;46.1;16.0;193.2;1;1.0
+Tomografia;Urgência;Ambulatório;21;2;0;12.3;11.3;62.2;0;0.0
+ECG;Eletivo;Internação (Leito);8;5;1;11.9;11.2;41.5;1;0.97
+Ressonância;Eletivo;Ambulatório;2;3;0;37.5;34.5;127.0;0;0.0
+ECG;Eletivo;Pronto-Socorro;5;5;1;15.2;7.5;33.3;1;0.83
+Ressonância;Eletivo;Pronto-Socorro;0;1;0;38.9;34.8;136.7;0;0.11
+Tomografia;Urgência;Ambulatório;20;2;0;13.5;13.3;55.7;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;16;4;0;93.5;34.0;378.0;1;1.0
+Tomografia;Urgência;Internação (Leito);4;6;1;16.1;15.9;63.6;0;0.01
+ECG;Eletivo;Ambulatório;8;4;0;35.3;9.6;109.6;1;1.0
+Ressonância;Eletivo;Internação (Leito);20;6;1;46.3;34.6;137.2;1;0.52
+Ultrassom;Eletivo;Internação (Leito);12;5;1;20.2;22.6;54.2;0;0.31
+Tomografia;Eletivo;Pronto-Socorro;17;1;0;61.0;12.9;249.4;1;1.0
+Ultrassom;Urgência;Internação (Leito);16;6;1;11.2;19.8;42.7;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;12;4;0;36.8;33.5;134.1;0;0.01
+Tomografia;Emergência (Vermelho);Internação (Leito);13;0;0;14.0;16.0;41.2;0;0.0
+Tomografia;Eletivo;Ambulatório;20;3;0;20.8;14.5;104.9;1;0.96
+Ultrassom;Urgência;Internação (Leito);12;2;0;11.1;22.3;29.0;0;0.01
+Tomografia;Emergência (Vermelho);Ambulatório;17;6;1;6.0;13.8;31.0;0;0.0
+Tomografia;Urgência;Pronto-Socorro;7;0;0;12.2;13.4;60.4;0;0.0
+ECG;Eletivo;Internação (Leito);3;6;1;9.8;13.3;31.2;0;0.2
+Ultrassom;Eletivo;Pronto-Socorro;19;5;1;19.2;23.1;67.9;1;0.94
+Ultrassom;Urgência;Ambulatório;5;1;0;13.3;19.5;44.1;0;0.01
+Ultrassom;Emergência (Vermelho);Internação (Leito);23;6;1;16.8;19.6;33.9;0;0.02
+ECG;Eletivo;Ambulatório;16;2;0;39.8;14.4;86.8;1;0.96
+Ressonância;Urgência;Pronto-Socorro;21;0;0;22.6;35.5;80.6;0;0.0
+Ressonância;Eletivo;Ambulatório;14;0;0;84.0;37.2;342.2;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;18;4;0;25.8;32.1;113.8;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;23;6;1;22.4;15.7;134.7;1;0.97
+ECG;Eletivo;Ambulatório;4;1;0;13.2;7.5;44.8;1;0.99
+Ressonância;Eletivo;Internação (Leito);13;2;0;34.3;32.7;129.9;0;0.0
+Tomografia;Emergência (Vermelho);Internação (Leito);23;5;1;5.5;14.8;27.8;0;0.0
+Ultrassom;Eletivo;Internação (Leito);23;0;0;43.9;16.2;66.1;1;0.96
+Ultrassom;Eletivo;Ambulatório;1;4;0;20.5;20.4;68.8;1;0.9
+Ultrassom;Eletivo;Pronto-Socorro;2;0;0;21.6;18.7;47.5;0;0.14
+Tomografia;Urgência;Ambulatório;2;4;0;13.1;14.0;47.8;0;0.0
+ECG;Eletivo;Pronto-Socorro;9;0;0;39.6;14.1;110.1;1;1.0
+Ressonância;Eletivo;Ambulatório;5;5;1;31.4;34.4;140.6;0;0.03
+Ressonância;Urgência;Pronto-Socorro;8;2;0;65.8;37.1;271.4;1;1.0
+Tomografia;Eletivo;Internação (Leito);0;6;1;26.2;15.6;84.6;0;0.07
+Tomografia;Eletivo;Pronto-Socorro;14;0;0;66.8;11.3;298.9;1;1.0
+Ultrassom;Eletivo;Ambulatório;7;3;0;39.7;20.2;54.5;1;0.77
+Tomografia;Eletivo;Ambulatório;22;5;1;22.9;12.0;193.4;1;0.95
+Ressonância;Urgência;Pronto-Socorro;12;4;0;23.5;36.3;79.5;0;0.0
+Tomografia;Eletivo;Ambulatório;19;3;0;20.1;16.0;76.0;0;0.05
+Ressonância;Eletivo;Internação (Leito);14;6;1;34.1;36.7;143.6;0;0.11
+Ultrassom;Eletivo;Pronto-Socorro;2;5;1;15.9;19.1;58.5;0;0.39
+Ultrassom;Urgência;Pronto-Socorro;2;6;1;10.9;23.5;45.9;0;0.02
+Ultrassom;Eletivo;Pronto-Socorro;14;5;1;16.9;22.8;53.6;0;0.19
+Ressonância;Eletivo;Ambulatório;2;1;0;33.8;32.6;179.7;1;0.94
+Ultrassom;Urgência;Pronto-Socorro;16;3;0;27.1;16.9;99.2;1;0.96
+Tomografia;Eletivo;Internação (Leito);14;5;1;27.6;13.4;102.7;1;0.99
+ECG;Urgência;Internação (Leito);2;1;0;8.7;11.8;18.4;0;0.02
+Tomografia;Urgência;Pronto-Socorro;15;6;1;13.3;14.0;55.1;0;0.0
+Tomografia;Urgência;Internação (Leito);8;6;1;17.8;15.1;98.9;0;0.11
+Tomografia;Urgência;Pronto-Socorro;4;4;0;10.2;14.8;51.4;0;0.0
+Tomografia;Eletivo;Internação (Leito);19;2;0;27.0;14.6;134.0;1;0.99
+Ultrassom;Eletivo;Pronto-Socorro;0;6;1;22.2;19.4;57.2;1;0.88
+Ressonância;Eletivo;Pronto-Socorro;12;2;0;32.3;34.0;142.9;0;0.15
+Tomografia;Eletivo;Pronto-Socorro;0;0;0;25.8;15.1;79.2;0;0.12
+Ressonância;Eletivo;Pronto-Socorro;9;2;0;105.6;35.2;411.6;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;14;6;1;21.3;15.8;79.2;0;0.04
+Ultrassom;Emergência (Vermelho);Ambulatório;9;4;0;13.5;22.4;40.2;0;0.02
+Tomografia;Emergência (Vermelho);Ambulatório;1;3;0;8.1;15.4;18.4;0;0.0
+Tomografia;Urgência;Pronto-Socorro;14;3;0;41.6;13.1;188.2;1;1.0
+Tomografia;Eletivo;Internação (Leito);7;3;0;30.9;15.4;104.0;1;1.0
+ECG;Emergência (Vermelho);Internação (Leito);15;0;0;7.5;9.1;25.7;0;0.08
+Ressonância;Eletivo;Pronto-Socorro;15;3;0;102.1;36.7;411.6;1;1.0
+Ressonância;Eletivo;Ambulatório;9;3;0;97.2;35.7;390.8;1;1.0
+Ressonância;Eletivo;Ambulatório;2;2;0;32.2;33.2;102.6;0;0.0
+Ressonância;Eletivo;Internação (Leito);17;3;0;110.7;35.8;394.7;1;1.0
+Ressonância;Eletivo;Internação (Leito);19;0;0;58.3;38.0;114.9;0;0.47
+ECG;Eletivo;Internação (Leito);14;4;0;39.9;9.7;106.4;1;1.0
+Tomografia;Eletivo;Ambulatório;3;0;0;22.5;13.9;96.9;0;0.37
+ECG;Urgência;Internação (Leito);7;1;0;18.4;12.1;21.6;0;0.17
+Ressonância;Eletivo;Internação (Leito);17;0;0;96.3;34.6;369.0;1;1.0
+Ressonância;Eletivo;Ambulatório;1;3;0;41.5;37.2;152.4;1;0.91
+Tomografia;Eletivo;Ambulatório;21;4;0;21.6;13.9;108.3;1;0.97
+ECG;Eletivo;Pronto-Socorro;12;1;0;18.1;7.9;36.5;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;9;4;0;54.8;25.6;133.2;1;1.0
+ECG;Emergência (Vermelho);Pronto-Socorro;18;4;0;9.6;11.1;29.0;0;0.04
+Tomografia;Eletivo;Internação (Leito);11;6;1;17.6;13.3;77.5;0;0.02
+Tomografia;Eletivo;Pronto-Socorro;21;6;1;24.3;18.7;90.9;0;0.16
+Tomografia;Urgência;Internação (Leito);12;3;0;13.2;13.9;78.2;0;0.0
+ECG;Urgência;Internação (Leito);11;3;0;20.2;8.2;96.5;1;1.0
+Tomografia;Eletivo;Internação (Leito);7;0;0;23.0;14.9;104.0;1;1.0
+Tomografia;Emergência (Vermelho);Internação (Leito);19;3;0;5.5;17.7;49.9;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;9;3;0;93.0;35.0;364.6;1;1.0
+Ultrassom;Eletivo;Internação (Leito);14;1;0;57.6;14.6;159.9;1;1.0
+Tomografia;Urgência;Ambulatório;17;6;1;13.7;14.6;69.7;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;7;6;1;24.0;13.0;125.8;1;1.0
+Ressonância;Urgência;Pronto-Socorro;7;1;0;23.5;37.5;92.6;0;0.0
+Ultrassom;Emergência (Vermelho);Internação (Leito);14;5;1;7.9;21.6;10.8;0;0.0
+Tomografia;Eletivo;Ambulatório;9;4;0;72.1;16.5;298.8;1;1.0
+Tomografia;Eletivo;Internação (Leito);6;2;0;25.2;16.2;95.2;1;0.52
+Tomografia;Eletivo;Pronto-Socorro;7;5;1;27.6;14.1;117.8;1;0.99
+Tomografia;Eletivo;Pronto-Socorro;5;1;0;20.6;12.9;90.6;0;0.01
+ECG;Eletivo;Pronto-Socorro;8;5;1;25.9;10.6;48.4;1;0.98
+Tomografia;Eletivo;Pronto-Socorro;15;6;1;27.4;13.4;103.2;1;0.99
+Ressonância;Urgência;Internação (Leito);18;6;1;29.3;36.9;74.2;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;23;5;1;24.4;13.8;130.5;1;1.0
+Ressonância;Urgência;Ambulatório;5;1;0;23.2;33.9;108.1;0;0.01
+Tomografia;Emergência (Vermelho);Internação (Leito);10;5;1;25.6;13.0;35.6;0;0.02
+Ultrassom;Eletivo;Internação (Leito);17;0;0;64.3;23.2;156.0;1;1.0
+Tomografia;Eletivo;Ambulatório;3;1;0;24.0;13.0;99.6;1;0.94
+Tomografia;Eletivo;Ambulatório;5;3;0;17.8;17.5;90.5;0;0.06
+ECG;Eletivo;Pronto-Socorro;4;3;0;12.1;13.6;28.8;0;0.16
+Tomografia;Urgência;Pronto-Socorro;11;4;0;36.2;12.3;156.3;1;0.97
+Tomografia;Urgência;Pronto-Socorro;9;2;0;40.8;16.3;182.7;1;1.0
+Ultrassom;Eletivo;Internação (Leito);1;2;0;26.4;19.8;50.5;1;0.23
+Tomografia;Urgência;Internação (Leito);9;1;0;42.2;14.0;179.8;1;1.0
+ECG;Eletivo;Internação (Leito);8;6;1;9.1;8.3;45.8;1;0.94
+Tomografia;Eletivo;Internação (Leito);5;1;0;22.5;14.3;111.0;1;1.0
+Ultrassom;Eletivo;Internação (Leito);18;3;0;17.6;23.1;51.7;0;0.09
+Ultrassom;Eletivo;Internação (Leito);13;2;0;22.3;21.7;47.0;0;0.12
+ECG;Emergência (Vermelho);Pronto-Socorro;16;5;1;3.8;9.0;22.7;0;0.03
+Ressonância;Eletivo;Internação (Leito);23;6;1;33.3;35.9;127.7;0;0.04
+Tomografia;Eletivo;Pronto-Socorro;1;4;0;17.8;15.5;92.7;0;0.06
+Ressonância;Emergência (Vermelho);Pronto-Socorro;2;6;1;7.0;33.9;73.6;0;0.03
+Tomografia;Urgência;Pronto-Socorro;5;2;0;19.4;15.1;60.6;0;0.0
+Ultrassom;Eletivo;Internação (Leito);8;4;0;57.1;20.2;173.3;1;1.0
+ECG;Eletivo;Internação (Leito);17;2;0;31.2;8.9;96.2;1;0.99
+Ressonância;Eletivo;Ambulatório;13;0;0;34.2;35.9;116.8;0;0.0
+Ressonância;Urgência;Ambulatório;8;1;0;53.8;36.5;195.7;1;1.0
+Ressonância;Eletivo;Ambulatório;16;1;0;82.9;37.4;335.4;1;1.0
+Ultrassom;Urgência;Internação (Leito);5;6;1;18.6;19.3;26.3;0;0.03
+Ressonância;Emergência (Vermelho);Pronto-Socorro;18;0;0;11.0;33.3;25.5;0;0.0
+ECG;Eletivo;Pronto-Socorro;15;4;0;30.5;11.5;91.2;1;1.0
+Ressonância;Urgência;Pronto-Socorro;14;4;0;79.8;33.8;247.0;1;1.0
+Ressonância;Urgência;Pronto-Socorro;22;6;1;19.5;35.3;109.6;0;0.02
+ECG;Urgência;Pronto-Socorro;9;3;0;25.1;9.6;61.5;1;0.99
+Ultrassom;Eletivo;Ambulatório;10;0;0;45.0;19.2;197.6;1;1.0
+Ressonância;Emergência (Vermelho);Pronto-Socorro;21;1;0;9.6;35.1;35.9;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;10;2;0;69.4;15.0;302.3;1;1.0
+Tomografia;Eletivo;Internação (Leito);5;1;0;28.0;17.7;99.1;1;0.99
+Ressonância;Eletivo;Pronto-Socorro;2;4;0;35.2;33.0;115.2;0;0.02
+ECG;Eletivo;Pronto-Socorro;7;6;1;11.7;10.4;66.2;1;1.0
+Ultrassom;Eletivo;Internação (Leito);20;0;0;21.1;21.1;41.4;0;0.08
+Ressonância;Urgência;Pronto-Socorro;14;4;0;63.4;36.3;216.6;1;1.0
+ECG;Eletivo;Ambulatório;22;4;0;25.4;13.1;31.3;1;0.72
+Tomografia;Urgência;Internação (Leito);7;5;1;19.1;14.1;75.5;0;0.0
+Ressonância;Eletivo;Ambulatório;6;4;0;36.2;36.3;170.0;1;0.93
+Tomografia;Eletivo;Pronto-Socorro;14;1;0;51.7;13.6;232.2;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;6;3;0;26.2;15.3;103.6;1;0.99
+Ressonância;Urgência;Internação (Leito);4;0;0;19.0;39.3;90.7;0;0.0
+Tomografia;Eletivo;Ambulatório;21;3;0;42.6;13.5;95.2;1;0.87
+Tomografia;Eletivo;Ambulatório;9;0;0;68.6;17.3;318.8;1;1.0
+Tomografia;Eletivo;Internação (Leito);13;4;0;23.1;15.8;143.0;1;1.0
+ECG;Eletivo;Internação (Leito);21;4;0;17.6;9.6;35.6;1;0.99
+ECG;Eletivo;Internação (Leito);20;3;0;14.9;12.7;26.9;0;0.25
+ECG;Eletivo;Internação (Leito);11;3;0;27.5;8.3;84.3;1;1.0
+Tomografia;Emergência (Vermelho);Internação (Leito);0;0;0;7.4;11.9;27.8;0;0.0
+ECG;Urgência;Pronto-Socorro;14;5;1;14.8;9.5;96.3;1;0.93
+Ultrassom;Eletivo;Pronto-Socorro;2;0;0;19.5;22.0;64.2;1;0.99
+Ressonância;Eletivo;Pronto-Socorro;8;3;0;83.9;28.5;345.8;1;1.0
+ECG;Eletivo;Internação (Leito);9;1;0;42.4;7.5;114.1;1;1.0
+Tomografia;Eletivo;Ambulatório;20;2;0;23.8;15.1;107.3;1;1.0
+Ultrassom;Urgência;Internação (Leito);0;2;0;17.6;22.2;37.8;0;0.07
+Tomografia;Urgência;Pronto-Socorro;9;4;0;38.2;16.0;163.9;1;1.0
+Ultrassom;Urgência;Ambulatório;22;4;0;11.2;18.2;43.5;0;0.01
+Ressonância;Eletivo;Ambulatório;1;2;0;36.6;34.4;140.9;0;0.06
+Ressonância;Urgência;Ambulatório;22;6;1;21.5;35.2;82.4;0;0.0
+Tomografia;Urgência;Ambulatório;1;4;0;20.2;15.1;58.2;0;0.0
+Tomografia;Eletivo;Ambulatório;23;1;0;26.0;13.6;150.1;1;0.95
+Tomografia;Urgência;Pronto-Socorro;2;0;0;15.8;16.5;95.1;0;0.03
+Tomografia;Urgência;Ambulatório;0;2;0;11.5;17.9;55.2;0;0.0
+Tomografia;Eletivo;Ambulatório;20;0;0;26.1;17.5;148.6;1;0.92
+ECG;Eletivo;Pronto-Socorro;2;2;0;10.9;9.0;40.9;1;0.99
+Tomografia;Emergência (Vermelho);Pronto-Socorro;7;2;0;8.7;16.4;24.1;0;0.0
+Tomografia;Urgência;Internação (Leito);17;5;1;14.5;14.5;74.2;0;0.0
+ECG;Urgência;Ambulatório;6;5;1;8.6;9.9;40.5;1;0.9
+ECG;Eletivo;Ambulatório;2;3;0;13.8;6.3;41.5;1;0.96
+Tomografia;Eletivo;Internação (Leito);15;6;1;27.1;14.2;126.5;1;0.99
+ECG;Eletivo;Internação (Leito);13;5;1;10.7;14.0;68.9;1;0.95
+Ressonância;Urgência;Pronto-Socorro;15;6;1;17.3;34.6;61.6;0;0.0
+Ultrassom;Eletivo;Internação (Leito);13;4;0;16.4;19.0;50.6;0;0.08
+ECG;Emergência (Vermelho);Internação (Leito);12;6;1;5.9;9.2;20.4;0;0.02
+Ressonância;Eletivo;Pronto-Socorro;15;0;0;97.7;37.0;398.9;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;6;6;1;40.5;39.3;181.5;1;0.94
+Ressonância;Eletivo;Ambulatório;16;6;1;38.8;37.0;166.5;1;0.91
+Ressonância;Eletivo;Internação (Leito);6;4;0;35.8;36.5;140.9;0;0.07
+Ultrassom;Urgência;Pronto-Socorro;21;3;0;12.0;20.7;28.4;0;0.01
+ECG;Eletivo;Internação (Leito);5;2;0;12.0;9.8;50.2;1;1.0
+Ultrassom;Emergência (Vermelho);Pronto-Socorro;13;6;1;6.3;22.0;7.8;0;0.0
+ECG;Eletivo;Pronto-Socorro;22;2;0;14.7;10.3;49.1;1;0.99
+Ressonância;Eletivo;Ambulatório;8;5;1;36.8;37.2;153.5;1;0.95
+Tomografia;Eletivo;Pronto-Socorro;10;3;0;57.4;13.5;255.7;1;1.0
+Tomografia;Eletivo;Internação (Leito);11;6;1;24.3;14.6;111.9;1;0.98
+Tomografia;Eletivo;Pronto-Socorro;12;2;0;21.8;13.6;81.2;0;0.04
+Ressonância;Eletivo;Internação (Leito);22;4;0;29.6;33.7;117.5;0;0.02
+Ultrassom;Eletivo;Ambulatório;19;1;0;15.2;20.0;58.0;0;0.6
+ECG;Urgência;Internação (Leito);13;3;0;7.6;10.7;23.2;0;0.05
+ECG;Urgência;Pronto-Socorro;20;5;1;21.4;8.4;82.5;1;0.9
+Ultrassom;Eletivo;Internação (Leito);1;4;0;29.1;19.3;82.2;1;0.95
+Tomografia;Eletivo;Ambulatório;4;3;0;23.8;16.6;93.1;0;0.12
+Ressonância;Eletivo;Ambulatório;13;0;0;25.6;38.3;127.3;0;0.01
+Ressonância;Eletivo;Internação (Leito);4;0;0;32.1;36.6;121.4;0;0.01
+Tomografia;Eletivo;Pronto-Socorro;4;6;1;19.8;16.2;91.9;0;0.0
+Tomografia;Urgência;Pronto-Socorro;10;2;0;41.2;19.2;177.7;1;1.0
+Ressonância;Urgência;Pronto-Socorro;20;4;0;22.2;34.2;81.5;0;0.0
+Tomografia;Eletivo;Internação (Leito);0;6;1;25.6;20.8;107.3;1;0.92
+Ultrassom;Eletivo;Ambulatório;12;3;0;28.8;18.7;45.1;0;0.45
+Tomografia;Emergência (Vermelho);Pronto-Socorro;13;2;0;5.1;15.8;24.7;0;0.0
+Tomografia;Emergência (Vermelho);Pronto-Socorro;16;3;0;18.0;15.9;87.4;0;0.02
+ECG;Emergência (Vermelho);Internação (Leito);15;2;0;6.9;9.5;29.3;0;0.04
+Ressonância;Urgência;Internação (Leito);21;0;0;18.5;29.9;74.8;0;0.0
+Ultrassom;Urgência;Internação (Leito);4;2;0;14.2;17.5;37.9;0;0.02
+Ultrassom;Emergência (Vermelho);Pronto-Socorro;8;2;0;11.7;17.5;40.1;0;0.04
+Tomografia;Urgência;Internação (Leito);4;4;0;20.8;15.6;73.5;0;0.0
+ECG;Eletivo;Ambulatório;5;4;0;10.8;13.5;60.4;1;0.88
+Ressonância;Eletivo;Internação (Leito);12;6;1;37.6;31.4;149.4;1;0.94
+Ressonância;Eletivo;Ambulatório;8;5;1;28.0;36.0;138.3;0;0.02
+Ultrassom;Eletivo;Internação (Leito);13;2;0;17.1;21.0;52.0;0;0.07
+Ultrassom;Eletivo;Pronto-Socorro;17;0;0;49.8;18.1;152.0;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;1;1;0;44.6;35.1;123.0;0;0.13
+Ultrassom;Eletivo;Internação (Leito);21;5;1;12.8;20.6;38.2;0;0.02
+Ultrassom;Urgência;Pronto-Socorro;15;6;1;9.9;19.8;43.4;0;0.0
+Tomografia;Emergência (Vermelho);Internação (Leito);1;1;0;8.7;14.2;18.5;0;0.0
+Ultrassom;Eletivo;Ambulatório;16;0;0;52.1;17.7;139.8;1;1.0
+Ressonância;Eletivo;Internação (Leito);17;2;0;92.3;37.1;361.1;1;1.0
+ECG;Eletivo;Ambulatório;4;2;0;24.0;11.3;42.0;1;0.97
+Tomografia;Urgência;Internação (Leito);22;5;1;14.3;15.1;66.9;0;0.0
+Ressonância;Urgência;Pronto-Socorro;23;1;0;48.0;31.9;75.0;0;0.18
+Ressonância;Emergência (Vermelho);Pronto-Socorro;9;2;0;18.9;34.6;86.5;0;0.0
+Tomografia;Urgência;Pronto-Socorro;19;6;1;16.7;16.1;54.8;0;0.0
+ECG;Eletivo;Ambulatório;21;5;1;11.3;7.1;42.3;1;0.97
+Tomografia;Eletivo;Internação (Leito);18;0;0;23.7;12.7;103.8;1;0.98
+Tomografia;Urgência;Pronto-Socorro;21;2;0;25.5;10.6;83.4;0;0.07
+Tomografia;Urgência;Pronto-Socorro;1;1;0;13.3;14.5;66.0;0;0.0
+ECG;Eletivo;Pronto-Socorro;13;6;1;10.3;9.6;28.5;0;0.15
+Ressonância;Urgência;Ambulatório;11;1;0;64.4;33.1;277.2;1;1.0
+Ultrassom;Emergência (Vermelho);Pronto-Socorro;18;0;0;8.7;17.7;17.2;0;0.0
+Tomografia;Urgência;Pronto-Socorro;6;6;1;16.2;18.7;74.5;0;0.0
+Tomografia;Eletivo;Internação (Leito);8;4;0;73.1;13.0;313.6;1;1.0
+Ressonância;Urgência;Pronto-Socorro;22;3;0;23.9;32.8;86.8;0;0.0
+Ressonância;Eletivo;Internação (Leito);10;4;0;93.3;34.8;377.7;1;1.0
+ECG;Eletivo;Ambulatório;17;4;0;34.4;12.3;134.6;1;1.0
+Tomografia;Eletivo;Internação (Leito);20;2;0;18.3;8.6;84.9;0;0.21
+ECG;Urgência;Internação (Leito);7;4;0;7.7;8.9;36.7;0;0.28
+Ressonância;Eletivo;Ambulatório;21;2;0;41.1;34.4;144.0;1;0.74
+Ressonância;Urgência;Internação (Leito);13;5;1;24.4;34.4;83.3;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;20;3;0;25.0;19.3;104.6;1;0.98
+Ressonância;Eletivo;Pronto-Socorro;23;4;0;29.3;33.6;121.2;0;0.05
+Ressonância;Emergência (Vermelho);Internação (Leito);1;4;0;5.3;36.9;54.7;0;0.02
+ECG;Urgência;Ambulatório;2;6;1;9.2;10.7;25.1;0;0.03
+ECG;Eletivo;Ambulatório;17;2;0;36.8;5.0;97.8;1;0.99
+ECG;Eletivo;Pronto-Socorro;9;1;0;34.2;7.9;141.1;1;1.0
+ECG;Eletivo;Internação (Leito);13;6;1;17.1;12.7;48.9;1;0.98
+ECG;Eletivo;Internação (Leito);21;6;1;12.4;10.7;35.4;1;0.97
+ECG;Urgência;Pronto-Socorro;15;0;0;16.9;8.9;84.2;1;0.99
+Ultrassom;Eletivo;Pronto-Socorro;7;6;1;17.2;22.8;47.9;0;0.07
+Tomografia;Urgência;Pronto-Socorro;17;6;1;12.7;12.2;67.6;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;13;0;0;32.7;35.0;139.9;0;0.04
+ECG;Eletivo;Pronto-Socorro;15;3;0;32.7;11.9;93.5;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;5;1;0;29.3;35.4;116.7;0;0.0
+Ultrassom;Eletivo;Pronto-Socorro;0;1;0;28.5;22.2;57.6;1;0.88
+Tomografia;Eletivo;Ambulatório;1;6;1;28.6;12.3;96.9;1;0.72
+ECG;Eletivo;Pronto-Socorro;4;2;0;17.7;6.3;42.7;1;0.94
+Ressonância;Urgência;Pronto-Socorro;1;5;1;24.3;34.5;101.3;0;0.0
+ECG;Eletivo;Pronto-Socorro;15;3;0;51.2;8.9;83.5;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;1;1;0;36.6;35.6;214.8;1;0.97
+Ressonância;Eletivo;Internação (Leito);13;2;0;38.4;35.0;158.4;1;0.97
+Ultrassom;Urgência;Pronto-Socorro;18;3;0;11.4;15.8;69.1;1;0.67
+ECG;Eletivo;Internação (Leito);13;6;1;12.3;9.4;49.0;1;0.99
+ECG;Urgência;Internação (Leito);17;6;1;15.7;14.4;36.2;1;0.73
+Tomografia;Eletivo;Internação (Leito);11;2;0;73.0;13.2;326.6;1;1.0
+ECG;Eletivo;Pronto-Socorro;1;2;0;20.1;5.0;37.5;1;0.93
+Tomografia;Urgência;Pronto-Socorro;4;6;1;18.9;16.5;92.2;0;0.04
+Ultrassom;Eletivo;Pronto-Socorro;13;6;1;17.8;20.0;57.5;1;0.74
+Ressonância;Urgência;Ambulatório;9;0;0;66.4;32.1;263.3;1;1.0
+ECG;Urgência;Internação (Leito);18;4;0;11.3;10.5;24.6;0;0.06
+ECG;Eletivo;Internação (Leito);10;0;0;42.0;8.4;99.3;1;1.0
+Ressonância;Eletivo;Internação (Leito);7;6;1;32.2;35.3;132.5;0;0.0
+Ressonância;Urgência;Internação (Leito);11;4;0;49.0;33.7;190.4;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;22;0;0;19.8;13.7;92.4;0;0.06
+ECG;Eletivo;Pronto-Socorro;6;2;0;10.0;8.2;24.4;0;0.09
+Ressonância;Urgência;Pronto-Socorro;1;3;0;21.9;34.6;81.1;0;0.0
+ECG;Urgência;Ambulatório;23;3;0;6.8;10.5;22.1;0;0.04
+Tomografia;Urgência;Pronto-Socorro;2;5;1;12.1;15.6;54.9;0;0.0
+ECG;Urgência;Pronto-Socorro;1;4;0;6.2;8.9;87.5;1;0.82
+ECG;Eletivo;Ambulatório;8;6;1;23.5;12.2;67.9;1;0.97
+ECG;Eletivo;Internação (Leito);22;2;0;13.8;12.7;66.0;1;0.98
+ECG;Eletivo;Internação (Leito);4;0;0;13.4;11.0;63.1;1;0.98
+Ressonância;Eletivo;Pronto-Socorro;3;1;0;54.3;37.5;148.6;1;0.94
+Ressonância;Eletivo;Pronto-Socorro;11;4;0;90.8;37.0;345.5;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;3;2;0;36.1;35.5;142.8;0;0.27
+Ressonância;Eletivo;Pronto-Socorro;9;1;0;106.2;37.3;358.4;1;1.0
+Tomografia;Emergência (Vermelho);Ambulatório;20;5;1;3.8;11.8;18.1;0;0.02
+Tomografia;Eletivo;Internação (Leito);15;3;0;80.7;15.6;310.5;1;1.0
+Tomografia;Eletivo;Ambulatório;8;0;0;71.4;14.3;308.4;1;1.0
+Tomografia;Urgência;Pronto-Socorro;4;6;1;14.6;12.5;64.1;0;0.0
+Ultrassom;Emergência (Vermelho);Internação (Leito);1;6;1;4.9;20.6;11.9;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;18;1;0;34.1;37.0;138.4;0;0.01
+Tomografia;Urgência;Internação (Leito);21;2;0;31.0;13.5;51.1;0;0.03
+Tomografia;Eletivo;Internação (Leito);8;0;0;61.2;15.4;263.7;1;1.0
+Tomografia;Urgência;Ambulatório;7;3;0;16.1;15.1;90.4;0;0.01
+Tomografia;Eletivo;Internação (Leito);0;4;0;26.9;17.1;105.6;1;1.0
+Ultrassom;Urgência;Pronto-Socorro;4;4;0;8.1;21.3;32.7;0;0.0
+Ultrassom;Eletivo;Ambulatório;7;1;0;22.8;22.0;65.8;1;0.91
+Ressonância;Eletivo;Internação (Leito);0;2;0;41.5;34.8;133.3;0;0.1
+Ressonância;Emergência (Vermelho);Internação (Leito);4;3;0;9.2;36.1;50.5;0;0.0
+Tomografia;Eletivo;Internação (Leito);4;4;0;31.7;12.3;145.9;1;0.98
+Ressonância;Eletivo;Internação (Leito);8;0;0;76.9;33.7;311.4;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;3;1;0;27.8;20.2;74.5;1;0.95
+ECG;Urgência;Ambulatório;12;4;0;7.7;7.9;32.4;0;0.19
+Tomografia;Emergência (Vermelho);Pronto-Socorro;18;1;0;13.7;13.6;47.4;0;0.0
+Ultrassom;Eletivo;Internação (Leito);17;5;1;23.9;20.0;67.9;1;0.96
+Ressonância;Eletivo;Pronto-Socorro;14;4;0;94.3;36.6;357.5;1;1.0
+Tomografia;Urgência;Internação (Leito);20;0;0;13.7;17.4;67.9;0;0.01
+Tomografia;Emergência (Vermelho);Ambulatório;23;3;0;5.3;14.4;18.5;0;0.0
+ECG;Urgência;Internação (Leito);13;5;1;7.4;11.8;42.0;1;0.85
+ECG;Urgência;Internação (Leito);2;1;0;5.8;13.3;25.6;0;0.09
+Ultrassom;Urgência;Ambulatório;19;4;0;8.4;19.2;29.2;0;0.03
+Tomografia;Eletivo;Ambulatório;16;4;0;64.5;15.2;274.4;1;1.0
+Tomografia;Urgência;Pronto-Socorro;6;6;1;29.4;12.1;52.8;0;0.04
+Tomografia;Eletivo;Ambulatório;21;0;0;23.9;19.0;116.8;1;1.0
+Tomografia;Urgência;Pronto-Socorro;13;2;0;28.7;16.2;67.3;0;0.07
+Ressonância;Eletivo;Pronto-Socorro;4;4;0;46.7;34.3;151.4;1;0.99
+ECG;Urgência;Pronto-Socorro;10;0;0;20.3;8.9;77.5;1;1.0
+Tomografia;Eletivo;Internação (Leito);4;2;0;27.8;13.8;123.6;1;1.0
+Ressonância;Urgência;Ambulatório;16;5;1;25.7;35.2;92.7;0;0.0
+ECG;Eletivo;Internação (Leito);9;1;0;36.1;12.9;93.5;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;21;2;0;25.6;20.6;108.0;1;0.97
+Ultrassom;Eletivo;Pronto-Socorro;20;6;1;16.3;21.0;71.7;1;0.94
+ECG;Eletivo;Internação (Leito);21;5;1;14.9;12.0;55.1;1;0.98
+Ressonância;Urgência;Ambulatório;8;2;0;50.7;34.0;203.2;1;1.0
+Tomografia;Eletivo;Internação (Leito);12;2;0;24.2;12.5;85.1;0;0.04
+Tomografia;Eletivo;Ambulatório;15;1;0;57.9;16.4;249.7;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;21;5;1;39.6;37.3;159.4;1;0.97
+ECG;Eletivo;Pronto-Socorro;2;0;0;22.2;12.7;69.8;1;0.96
+ECG;Urgência;Internação (Leito);19;5;1;18.2;8.3;47.5;1;0.96
+Ressonância;Urgência;Internação (Leito);11;2;0;56.9;33.5;245.4;1;1.0
+Tomografia;Emergência (Vermelho);Pronto-Socorro;12;6;1;16.5;15.7;31.7;0;0.01
+Ressonância;Eletivo;Pronto-Socorro;12;5;1;27.4;33.5;121.2;0;0.0
+Ressonância;Eletivo;Internação (Leito);14;5;1;30.2;38.2;109.0;0;0.0
+ECG;Eletivo;Pronto-Socorro;11;4;0;29.6;12.6;96.6;1;1.0
+Ressonância;Urgência;Pronto-Socorro;15;0;0;64.9;36.8;233.0;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;18;0;0;28.1;39.6;157.1;1;0.75
+Tomografia;Eletivo;Internação (Leito);12;3;0;31.2;18.2;126.8;1;1.0
+ECG;Eletivo;Internação (Leito);10;5;1;15.9;10.9;57.5;1;1.0
+ECG;Urgência;Pronto-Socorro;13;4;0;11.7;7.0;22.5;0;0.06
+Tomografia;Eletivo;Internação (Leito);13;4;0;29.6;19.5;112.8;1;0.98
+Tomografia;Eletivo;Ambulatório;22;2;0;23.4;14.5;101.0;1;0.97
+Ressonância;Eletivo;Internação (Leito);10;3;0;116.6;38.6;415.6;1;1.0
+ECG;Eletivo;Pronto-Socorro;5;6;1;24.7;8.9;33.9;1;0.92
+Tomografia;Urgência;Pronto-Socorro;6;4;0;13.9;13.2;76.5;0;0.0
+Tomografia;Urgência;Pronto-Socorro;10;2;0;75.7;15.6;174.8;1;1.0
+Tomografia;Eletivo;Ambulatório;18;6;1;24.6;14.1;105.3;1;1.0
+ECG;Eletivo;Pronto-Socorro;10;1;0;33.3;6.8;116.6;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;6;0;0;22.5;8.3;81.6;0;0.28
+Ressonância;Eletivo;Internação (Leito);10;4;0;95.2;33.3;402.3;1;1.0
+ECG;Eletivo;Internação (Leito);2;6;1;33.5;11.3;46.4;1;0.98
+Ressonância;Eletivo;Pronto-Socorro;0;2;0;26.2;34.7;108.4;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;22;5;1;41.5;12.4;104.8;1;0.98
+Tomografia;Urgência;Pronto-Socorro;11;3;0;40.9;17.4;218.5;1;1.0
+Ressonância;Eletivo;Ambulatório;21;6;1;42.9;36.4;151.1;1;0.95
+Ultrassom;Eletivo;Pronto-Socorro;5;0;0;25.1;18.6;43.2;0;0.13
+Ultrassom;Emergência (Vermelho);Pronto-Socorro;17;3;0;17.1;24.9;42.3;0;0.07
+Ultrassom;Eletivo;Pronto-Socorro;6;3;0;23.3;22.9;45.0;0;0.12
+Ressonância;Urgência;Internação (Leito);12;5;1;21.7;33.8;92.6;0;0.01
+Tomografia;Urgência;Pronto-Socorro;20;2;0;13.2;15.4;54.9;0;0.0
+Ressonância;Eletivo;Ambulatório;1;0;0;32.8;33.6;142.7;0;0.15
+Tomografia;Urgência;Internação (Leito);5;2;0;16.9;16.3;71.4;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;3;3;0;17.6;13.2;112.3;1;0.94
+Ressonância;Eletivo;Pronto-Socorro;0;3;0;35.9;35.3;154.3;1;0.99
+ECG;Urgência;Internação (Leito);5;1;0;8.7;11.3;35.5;0;0.35
+Tomografia;Eletivo;Ambulatório;8;1;0;64.1;15.4;281.7;1;1.0
+Tomografia;Urgência;Pronto-Socorro;13;0;0;23.2;15.3;58.2;0;0.01
+Tomografia;Eletivo;Ambulatório;16;3;0;57.1;12.2;244.5;1;1.0
+Ultrassom;Urgência;Pronto-Socorro;6;1;0;12.4;19.3;35.1;0;0.01
+Ressonância;Eletivo;Pronto-Socorro;3;3;0;35.2;34.1;105.5;0;0.01
+Ultrassom;Eletivo;Internação (Leito);16;6;1;23.0;19.9;70.1;1;0.94
+Tomografia;Urgência;Ambulatório;19;0;0;15.4;15.6;77.7;0;0.0
+Tomografia;Eletivo;Internação (Leito);23;3;0;22.9;17.3;100.8;1;0.95
+Tomografia;Eletivo;Ambulatório;10;2;0;64.2;15.7;285.2;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;6;2;0;22.1;16.2;106.3;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;17;3;0;61.4;20.8;157.2;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;2;3;0;24.7;14.9;79.0;0;0.02
+ECG;Urgência;Pronto-Socorro;12;3;0;9.3;8.9;31.4;0;0.15
+Tomografia;Eletivo;Internação (Leito);7;2;0;28.4;10.8;94.2;1;0.77
+Tomografia;Urgência;Pronto-Socorro;6;3;0;25.3;16.6;87.1;0;0.03
+Ultrassom;Urgência;Pronto-Socorro;3;2;0;15.6;20.6;33.9;0;0.0
+Ultrassom;Emergência (Vermelho);Pronto-Socorro;15;4;0;14.3;20.9;40.0;0;0.0
+Ultrassom;Eletivo;Internação (Leito);6;0;0;20.1;19.8;44.8;0;0.11
+Ultrassom;Urgência;Internação (Leito);5;0;0;9.5;22.0;57.3;0;0.24
+Tomografia;Eletivo;Pronto-Socorro;1;5;1;29.2;13.7;131.6;1;1.0
+Ressonância;Eletivo;Ambulatório;13;4;0;27.5;32.7;113.1;0;0.0
+Tomografia;Eletivo;Internação (Leito);4;3;0;19.4;17.3;84.9;0;0.01
+Tomografia;Emergência (Vermelho);Pronto-Socorro;9;1;0;24.6;13.4;77.2;0;0.02
+Tomografia;Eletivo;Pronto-Socorro;1;5;1;20.3;15.6;90.3;0;0.03
+Ultrassom;Eletivo;Internação (Leito);22;1;0;15.8;21.5;50.7;0;0.02
+Tomografia;Emergência (Vermelho);Ambulatório;13;1;0;5.5;18.3;75.0;0;0.01
+Ultrassom;Eletivo;Pronto-Socorro;11;2;0;51.7;20.6;168.6;1;1.0
+Ressonância;Emergência (Vermelho);Pronto-Socorro;20;6;1;14.6;33.7;29.7;0;0.0
+Ultrassom;Eletivo;Pronto-Socorro;23;2;0;24.6;20.2;42.9;0;0.24
+Ressonância;Urgência;Pronto-Socorro;15;0;0;62.5;31.3;268.1;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;1;6;1;24.7;14.8;99.0;1;0.91
+Ressonância;Eletivo;Internação (Leito);5;1;0;35.9;36.2;108.9;0;0.02
+Ultrassom;Eletivo;Pronto-Socorro;21;2;0;13.6;16.4;44.3;0;0.04
+ECG;Urgência;Ambulatório;11;4;0;20.0;9.1;60.7;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;2;0;0;15.0;18.5;58.6;0;0.66
+Tomografia;Eletivo;Internação (Leito);13;0;0;26.0;18.9;106.2;1;0.98
+Ressonância;Eletivo;Pronto-Socorro;19;3;0;29.2;34.9;107.2;0;0.01
+Tomografia;Eletivo;Pronto-Socorro;19;3;0;19.8;12.1;86.9;0;0.06
+Ultrassom;Eletivo;Internação (Leito);7;2;0;19.7;19.6;39.6;0;0.09
+ECG;Urgência;Ambulatório;4;6;1;15.5;6.0;28.0;0;0.33
+Ultrassom;Eletivo;Internação (Leito);3;2;0;20.9;22.6;53.9;0;0.26
+ECG;Eletivo;Pronto-Socorro;5;5;1;34.4;8.6;41.6;1;0.98
+Tomografia;Eletivo;Internação (Leito);16;6;1;36.6;14.0;114.6;1;1.0
+Ressonância;Eletivo;Internação (Leito);9;3;0;83.1;32.9;359.1;1;1.0
+Ressonância;Eletivo;Internação (Leito);7;4;0;31.7;35.9;132.1;0;0.0
+ECG;Urgência;Pronto-Socorro;4;3;0;9.8;6.8;34.1;0;0.28
+Ultrassom;Eletivo;Pronto-Socorro;12;3;0;20.7;15.3;62.4;1;0.9
+Ultrassom;Eletivo;Ambulatório;0;3;0;16.5;23.1;48.8;0;0.07
+Ultrassom;Eletivo;Internação (Leito);23;6;1;18.5;20.6;44.1;0;0.12
+Tomografia;Urgência;Pronto-Socorro;13;2;0;11.2;12.9;67.6;0;0.01
+Ultrassom;Emergência (Vermelho);Pronto-Socorro;19;0;0;5.2;21.8;19.7;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;21;0;0;23.7;15.2;105.6;1;0.99
+ECG;Urgência;Pronto-Socorro;14;2;0;25.8;14.8;72.9;1;0.96
+ECG;Eletivo;Pronto-Socorro;23;5;1;9.7;8.7;26.1;0;0.22
+ECG;Eletivo;Internação (Leito);18;3;0;10.5;10.3;29.5;0;0.05
+Ultrassom;Urgência;Internação (Leito);16;0;0;27.6;20.9;85.8;1;0.97
+Tomografia;Emergência (Vermelho);Pronto-Socorro;11;5;1;4.8;12.5;23.7;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;0;3;0;20.1;17.1;101.2;1;0.84
+Tomografia;Eletivo;Internação (Leito);12;2;0;23.5;12.4;98.9;1;0.92
+Tomografia;Eletivo;Ambulatório;12;2;0;28.1;14.2;90.5;0;0.18
+Tomografia;Eletivo;Pronto-Socorro;19;4;0;30.0;12.6;74.8;0;0.26
+Tomografia;Eletivo;Internação (Leito);17;4;0;76.3;16.2;303.6;1;1.0
+Tomografia;Urgência;Internação (Leito);13;2;0;13.4;12.9;77.9;0;0.0
+Tomografia;Urgência;Ambulatório;7;4;0;21.7;17.3;67.5;0;0.0
+Ultrassom;Eletivo;Pronto-Socorro;12;6;1;14.8;23.3;49.1;0;0.05
+Ressonância;Urgência;Internação (Leito);2;5;1;23.1;33.0;84.5;0;0.0
+Ultrassom;Eletivo;Internação (Leito);14;4;0;42.6;18.2;132.1;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;23;3;0;27.1;14.5;157.3;1;0.94
+Ressonância;Urgência;Internação (Leito);20;0;0;21.2;36.8;84.8;0;0.01
+Tomografia;Emergência (Vermelho);Internação (Leito);16;1;0;33.8;14.6;74.0;0;0.05
+Tomografia;Eletivo;Internação (Leito);7;3;0;22.0;17.1;93.6;0;0.11
+Ultrassom;Eletivo;Pronto-Socorro;14;2;0;52.4;19.1;151.4;1;1.0
+Ultrassom;Eletivo;Internação (Leito);18;5;1;25.2;20.2;44.4;0;0.38
+Tomografia;Urgência;Pronto-Socorro;15;5;1;11.2;15.0;63.6;0;0.0
+Ressonância;Urgência;Ambulatório;14;6;1;26.3;35.3;75.7;0;0.0
+Tomografia;Urgência;Pronto-Socorro;17;0;0;39.0;16.8;181.2;1;0.99
+Ressonância;Urgência;Internação (Leito);1;3;0;20.3;37.6;72.3;0;0.0
+Ultrassom;Eletivo;Internação (Leito);9;3;0;56.1;20.1;160.4;1;1.0
+Tomografia;Urgência;Pronto-Socorro;1;6;1;22.3;16.8;65.5;0;0.04
+Tomografia;Urgência;Ambulatório;23;3;0;29.4;14.4;75.5;0;0.04
+Tomografia;Eletivo;Ambulatório;2;1;0;22.6;15.3;102.0;1;0.97
+Ultrassom;Urgência;Internação (Leito);10;0;0;42.2;20.1;94.4;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;23;4;0;18.6;20.2;80.6;1;0.85
+Tomografia;Eletivo;Pronto-Socorro;21;6;1;19.0;10.6;95.6;0;0.22
+Tomografia;Eletivo;Pronto-Socorro;6;1;0;44.8;15.6;99.4;1;0.96
+Ultrassom;Urgência;Internação (Leito);2;4;0;8.8;18.8;30.0;0;0.02
+Ultrassom;Urgência;Pronto-Socorro;4;1;0;10.6;14.9;56.3;0;0.12
+ECG;Emergência (Vermelho);Ambulatório;15;6;1;7.9;7.6;52.6;1;0.66
+Ressonância;Eletivo;Pronto-Socorro;9;3;0;107.3;38.3;409.8;1;1.0
+Ressonância;Emergência (Vermelho);Ambulatório;23;6;1;8.8;35.8;42.3;0;0.0
+Ultrassom;Eletivo;Ambulatório;0;0;0;18.4;20.4;74.1;1;0.92
+Ultrassom;Eletivo;Pronto-Socorro;9;3;0;52.4;20.6;160.5;1;1.0
+Tomografia;Eletivo;Ambulatório;20;4;0;22.1;16.3;100.0;1;0.97
+Tomografia;Emergência (Vermelho);Internação (Leito);19;1;0;4.3;17.0;66.0;0;0.02
+Ressonância;Eletivo;Internação (Leito);22;3;0;32.5;33.5;120.3;0;0.02
+ECG;Eletivo;Internação (Leito);12;2;0;12.0;8.0;36.9;1;0.98
+Tomografia;Eletivo;Internação (Leito);10;0;0;63.0;14.2;291.6;1;1.0
+ECG;Eletivo;Internação (Leito);22;4;0;11.8;10.0;50.8;1;0.98
+Tomografia;Eletivo;Ambulatório;12;2;0;28.1;15.2;125.1;1;1.0
+ECG;Eletivo;Ambulatório;18;2;0;10.2;10.6;49.7;1;0.92
+ECG;Eletivo;Internação (Leito);16;3;0;29.5;11.7;100.0;1;1.0
+Tomografia;Eletivo;Ambulatório;6;5;1;16.9;13.3;98.8;0;0.4
+Ultrassom;Eletivo;Internação (Leito);22;5;1;22.6;21.9;49.0;0;0.19
+ECG;Urgência;Internação (Leito);2;5;1;12.7;10.1;22.8;0;0.05
+Tomografia;Emergência (Vermelho);Pronto-Socorro;3;3;0;16.4;13.6;28.3;0;0.01
+Ultrassom;Eletivo;Ambulatório;18;0;0;21.1;16.6;52.0;0;0.26
+ECG;Emergência (Vermelho);Internação (Leito);2;3;0;11.8;13.5;73.4;1;0.68
+Tomografia;Eletivo;Pronto-Socorro;14;2;0;63.5;16.7;254.8;1;1.0
+ECG;Urgência;Internação (Leito);23;3;0;17.5;10.6;21.1;0;0.17
+ECG;Urgência;Internação (Leito);16;5;1;12.2;7.1;20.4;0;0.13
+Ressonância;Eletivo;Internação (Leito);17;3;0;76.1;35.4;311.0;1;1.0
+Ultrassom;Urgência;Ambulatório;2;6;1;18.9;20.1;29.9;0;0.01
+Tomografia;Urgência;Pronto-Socorro;0;0;0;24.8;15.6;70.6;0;0.06
+ECG;Emergência (Vermelho);Internação (Leito);21;6;1;3.1;9.7;15.2;0;0.0
+Ressonância;Urgência;Pronto-Socorro;22;6;1;24.3;35.0;88.3;0;0.0
+ECG;Eletivo;Ambulatório;23;1;0;15.9;10.3;27.6;0;0.46
+Ressonância;Eletivo;Internação (Leito);15;1;0;107.4;36.5;450.1;1;1.0
+Ultrassom;Emergência (Vermelho);Ambulatório;20;3;0;4.9;22.2;12.3;0;0.0
+Ultrassom;Eletivo;Internação (Leito);17;0;0;45.5;21.1;131.1;1;1.0
+Ressonância;Urgência;Internação (Leito);18;3;0;14.7;34.9;68.3;0;0.01
+ECG;Eletivo;Internação (Leito);9;4;0;36.9;7.0;133.0;1;1.0
+Ultrassom;Emergência (Vermelho);Pronto-Socorro;12;3;0;11.5;19.5;12.7;0;0.02
+Tomografia;Eletivo;Pronto-Socorro;4;6;1;35.8;9.9;107.7;1;0.98
+Ultrassom;Eletivo;Internação (Leito);21;4;0;21.1;19.5;45.3;0;0.08
+Ultrassom;Eletivo;Internação (Leito);17;0;0;53.4;20.9;186.9;1;1.0
+Ultrassom;Urgência;Ambulatório;9;3;0;32.7;20.2;107.6;1;0.99
+Ressonância;Eletivo;Internação (Leito);1;5;1;34.1;33.7;132.3;0;0.01
+Ultrassom;Eletivo;Pronto-Socorro;5;2;0;24.0;19.8;80.8;1;0.97
+Ultrassom;Urgência;Ambulatório;23;1;0;11.2;16.1;42.8;0;0.01
+Tomografia;Eletivo;Internação (Leito);10;6;1;21.3;17.0;112.3;1;0.94
+Tomografia;Urgência;Ambulatório;21;3;0;17.7;13.8;77.8;0;0.0
+Ressonância;Emergência (Vermelho);Internação (Leito);17;0;0;25.5;35.7;74.5;0;0.0
+Tomografia;Eletivo;Internação (Leito);2;2;0;21.4;15.7;103.1;1;0.98
+Tomografia;Eletivo;Pronto-Socorro;4;6;1;33.9;15.0;106.3;1;1.0
+ECG;Emergência (Vermelho);Internação (Leito);13;4;0;2.6;15.1;13.3;0;0.1
+Ultrassom;Eletivo;Ambulatório;15;3;0;45.4;18.6;123.9;1;1.0
+Ultrassom;Urgência;Pronto-Socorro;22;2;0;14.3;20.5;47.8;0;0.0
+ECG;Emergência (Vermelho);Internação (Leito);11;4;0;15.1;8.7;32.8;1;0.4
+Tomografia;Eletivo;Internação (Leito);5;3;0;26.2;10.8;106.5;1;0.96
+Tomografia;Emergência (Vermelho);Pronto-Socorro;0;0;0;14.5;13.1;19.1;0;0.02
+Ultrassom;Eletivo;Pronto-Socorro;16;2;0;54.0;20.4;190.4;1;1.0
+Ultrassom;Urgência;Internação (Leito);9;1;0;24.0;17.3;72.0;1;0.87
+Ultrassom;Urgência;Pronto-Socorro;9;1;0;26.3;21.6;91.5;1;0.92
+Ultrassom;Urgência;Internação (Leito);22;6;1;10.3;22.6;36.2;0;0.02
+ECG;Emergência (Vermelho);Pronto-Socorro;19;4;0;10.7;7.6;5.4;0;0.02
+Ultrassom;Eletivo;Internação (Leito);6;4;0;19.2;20.0;53.8;0;0.21
+Ultrassom;Eletivo;Internação (Leito);19;1;0;14.3;18.4;48.9;0;0.05
+Ultrassom;Urgência;Pronto-Socorro;19;1;0;7.9;21.8;56.5;0;0.08
+Ressonância;Urgência;Pronto-Socorro;6;4;0;23.8;40.6;71.3;0;0.0
+Ressonância;Urgência;Internação (Leito);8;1;0;65.7;37.6;269.2;1;1.0
+Ultrassom;Eletivo;Ambulatório;20;2;0;22.1;22.3;88.2;1;0.94
+Ultrassom;Urgência;Ambulatório;20;2;0;11.7;22.6;40.9;0;0.01
+Ultrassom;Eletivo;Ambulatório;18;2;0;20.7;18.0;58.4;1;0.9
+Ressonância;Eletivo;Ambulatório;10;4;0;81.7;34.8;333.9;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;5;2;0;39.4;31.5;116.4;0;0.07
+Ressonância;Urgência;Ambulatório;11;3;0;49.2;31.8;196.1;1;0.99
+ECG;Eletivo;Internação (Leito);17;2;0;35.9;11.9;102.4;1;1.0
+Tomografia;Eletivo;Internação (Leito);22;6;1;22.4;14.8;114.1;1;0.97
+Ultrassom;Urgência;Ambulatório;14;4;0;34.7;22.2;155.2;1;1.0
+Tomografia;Eletivo;Ambulatório;8;0;0;78.8;13.0;307.9;1;1.0
+Ressonância;Urgência;Internação (Leito);3;1;0;20.7;33.4;121.4;0;0.05
+Tomografia;Urgência;Pronto-Socorro;3;3;0;10.9;14.7;52.5;0;0.0
+Tomografia;Urgência;Internação (Leito);9;6;1;25.8;14.7;68.3;0;0.03
+Tomografia;Eletivo;Ambulatório;16;3;0;55.5;13.5;236.2;1;1.0
+Ultrassom;Urgência;Pronto-Socorro;7;4;0;37.7;16.5;36.7;1;0.42
+ECG;Urgência;Pronto-Socorro;3;3;0;24.7;9.0;26.4;1;0.54
+Tomografia;Eletivo;Pronto-Socorro;1;5;1;24.1;17.0;132.8;1;0.98
+Ressonância;Eletivo;Ambulatório;15;6;1;34.9;34.4;133.7;0;0.0
+Ultrassom;Eletivo;Pronto-Socorro;0;6;1;20.0;17.8;51.3;0;0.2
+ECG;Eletivo;Ambulatório;21;3;0;16.0;13.5;58.8;1;0.92
+Ultrassom;Eletivo;Internação (Leito);12;3;0;17.0;18.8;49.6;0;0.03
+Ressonância;Emergência (Vermelho);Internação (Leito);10;0;0;24.0;34.2;79.0;0;0.0
+ECG;Urgência;Pronto-Socorro;11;4;0;21.0;11.4;64.2;1;1.0
+Ressonância;Urgência;Internação (Leito);6;5;1;20.7;33.2;120.9;0;0.06
+Ressonância;Emergência (Vermelho);Pronto-Socorro;23;0;0;7.6;35.5;25.4;0;0.0
+Tomografia;Eletivo;Internação (Leito);7;3;0;23.0;14.3;93.7;0;0.12
+ECG;Eletivo;Internação (Leito);17;1;0;32.2;12.5;90.1;1;1.0
+Ressonância;Emergência (Vermelho);Ambulatório;23;0;0;11.2;37.6;31.0;0;0.0
+Ressonância;Emergência (Vermelho);Internação (Leito);16;3;0;21.0;30.5;95.2;0;0.0
+ECG;Urgência;Internação (Leito);19;1;0;9.8;12.1;20.5;0;0.03
+Ressonância;Eletivo;Internação (Leito);2;0;0;40.9;32.8;143.9;1;0.76
+Tomografia;Eletivo;Internação (Leito);15;4;0;65.7;18.1;326.7;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;4;1;0;19.0;20.7;53.5;0;0.14
+Ressonância;Eletivo;Internação (Leito);22;6;1;28.8;36.1;130.6;0;0.03
+Ultrassom;Eletivo;Internação (Leito);14;5;1;27.9;19.5;52.2;1;0.68
+Ressonância;Eletivo;Ambulatório;16;2;0;87.2;35.7;373.9;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;2;1;0;18.5;16.6;96.4;0;0.1
+ECG;Urgência;Pronto-Socorro;19;6;1;6.9;7.9;26.6;0;0.03
+ECG;Urgência;Pronto-Socorro;7;5;1;9.1;10.5;22.8;0;0.01
+Ressonância;Urgência;Pronto-Socorro;2;2;0;24.5;35.8;64.1;0;0.0
+ECG;Urgência;Internação (Leito);12;3;0;6.4;7.9;27.0;0;0.09
+Ultrassom;Eletivo;Ambulatório;16;0;0;55.4;20.1;149.0;1;1.0
+Tomografia;Urgência;Pronto-Socorro;0;2;0;13.5;12.3;67.2;0;0.02
+Tomografia;Eletivo;Internação (Leito);5;3;0;41.0;16.5;95.8;1;0.94
+Tomografia;Urgência;Internação (Leito);18;2;0;18.0;12.1;93.3;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;12;1;0;38.5;13.1;100.8;1;0.98
+Ressonância;Eletivo;Pronto-Socorro;22;6;1;37.5;36.5;145.0;1;0.54
+Ultrassom;Eletivo;Ambulatório;19;2;0;29.6;22.2;83.1;1;0.96
+Ressonância;Eletivo;Internação (Leito);20;3;0;26.2;34.6;110.7;0;0.0
+Tomografia;Urgência;Pronto-Socorro;11;0;0;39.1;16.4;152.0;1;0.99
+Tomografia;Eletivo;Internação (Leito);16;3;0;67.2;14.9;288.1;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;8;5;1;14.2;22.9;61.2;1;0.69
+Ressonância;Urgência;Ambulatório;6;1;0;22.9;38.2;83.0;0;0.0
+ECG;Urgência;Internação (Leito);7;6;1;22.5;10.2;37.8;1;0.87
+Ressonância;Eletivo;Pronto-Socorro;16;1;0;108.3;31.4;419.8;1;1.0
+Ressonância;Eletivo;Internação (Leito);20;4;0;39.3;34.9;126.3;0;0.02
+Ultrassom;Eletivo;Ambulatório;4;2;0;25.1;18.1;80.9;1;0.93
+Ultrassom;Eletivo;Ambulatório;14;1;0;48.6;22.1;155.5;1;1.0
+Ressonância;Eletivo;Internação (Leito);6;0;0;39.0;32.6;132.3;0;0.03
+Ultrassom;Eletivo;Internação (Leito);15;6;1;14.3;18.6;49.3;0;0.03
+Ultrassom;Urgência;Internação (Leito);18;6;1;13.0;18.6;30.2;0;0.02
+ECG;Eletivo;Pronto-Socorro;11;4;0;31.9;11.7;106.6;1;0.99
+Ressonância;Eletivo;Pronto-Socorro;23;5;1;30.1;35.0;121.0;0;0.0
+Ultrassom;Urgência;Pronto-Socorro;21;2;0;11.2;21.9;112.6;1;0.77
+Ressonância;Eletivo;Internação (Leito);18;3;0;30.2;30.5;126.6;0;0.02
+Ressonância;Eletivo;Internação (Leito);13;0;0;33.0;32.4;136.1;0;0.0
+Ultrassom;Urgência;Ambulatório;21;4;0;22.3;14.5;41.1;0;0.08
+Ressonância;Eletivo;Internação (Leito);23;3;0;30.4;37.0;135.4;0;0.01
+Ressonância;Urgência;Pronto-Socorro;12;4;0;26.2;35.2;87.9;0;0.01
+ECG;Eletivo;Internação (Leito);18;4;0;15.5;13.5;52.1;1;0.94
+Ressonância;Eletivo;Internação (Leito);13;2;0;56.5;36.0;119.4;0;0.5
+Ressonância;Eletivo;Pronto-Socorro;18;2;0;65.8;34.7;142.3;1;0.92
+Ressonância;Eletivo;Internação (Leito);0;6;1;32.9;32.6;171.9;1;0.87
+Tomografia;Eletivo;Ambulatório;13;3;0;18.2;15.1;88.5;0;0.02
+Ultrassom;Eletivo;Pronto-Socorro;2;2;0;24.3;19.3;73.2;1;0.97
+ECG;Eletivo;Ambulatório;11;4;0;25.9;9.7;104.3;1;1.0
+Tomografia;Eletivo;Ambulatório;6;6;1;20.6;14.1;94.4;0;0.08
+Ressonância;Eletivo;Internação (Leito);8;0;0;94.4;33.6;365.3;1;1.0
+Tomografia;Urgência;Ambulatório;5;0;0;25.4;14.9;70.4;0;0.03
+ECG;Eletivo;Internação (Leito);0;1;0;22.9;9.4;41.5;1;0.99
+Tomografia;Eletivo;Internação (Leito);20;1;0;21.0;14.4;102.5;1;0.94
+Ressonância;Eletivo;Ambulatório;7;5;1;37.1;34.7;157.9;1;0.95
+ECG;Eletivo;Internação (Leito);7;3;0;11.4;7.6;32.6;0;0.18
+Tomografia;Eletivo;Pronto-Socorro;18;1;0;20.7;17.1;110.3;1;0.98
+ECG;Emergência (Vermelho);Pronto-Socorro;17;0;0;12.3;10.8;22.0;0;0.06
+Ultrassom;Eletivo;Ambulatório;14;5;1;17.0;20.0;65.6;1;0.9
+Ultrassom;Urgência;Ambulatório;2;2;0;10.5;18.9;41.2;0;0.0
+Ultrassom;Urgência;Internação (Leito);10;5;1;9.2;19.7;45.0;0;0.03
+Ultrassom;Eletivo;Pronto-Socorro;18;4;0;18.3;18.9;56.9;1;0.6
+Ressonância;Eletivo;Pronto-Socorro;4;0;0;43.0;37.8;145.9;1;0.92
+Ultrassom;Urgência;Pronto-Socorro;1;0;0;12.0;19.2;66.0;1;0.66
+Ressonância;Eletivo;Ambulatório;7;5;1;37.1;34.6;146.9;1;0.63
+Ressonância;Emergência (Vermelho);Pronto-Socorro;9;2;0;55.7;34.4;74.9;0;0.19
+Tomografia;Urgência;Internação (Leito);18;5;1;14.7;13.3;66.6;0;0.0
+Ultrassom;Emergência (Vermelho);Internação (Leito);19;5;1;15.9;20.0;23.7;0;0.01
+Tomografia;Eletivo;Internação (Leito);8;3;0;65.3;12.0;303.5;1;1.0
+Ultrassom;Eletivo;Internação (Leito);22;3;0;17.3;20.1;50.3;0;0.09
+Ressonância;Urgência;Internação (Leito);18;2;0;20.9;34.8;97.0;0;0.0
+Ultrassom;Eletivo;Pronto-Socorro;1;5;1;31.5;23.3;71.6;1;0.91
+Tomografia;Eletivo;Ambulatório;5;1;0;24.1;14.2;87.4;0;0.08
+Ressonância;Eletivo;Pronto-Socorro;14;2;0;84.2;36.6;333.6;1;1.0
+Ressonância;Eletivo;Ambulatório;13;0;0;32.6;36.3;122.5;0;0.01
+Ultrassom;Eletivo;Internação (Leito);4;2;0;21.1;19.0;82.7;1;0.94
+Ressonância;Eletivo;Ambulatório;18;3;0;51.3;33.0;119.7;0;0.45
+Ultrassom;Urgência;Ambulatório;10;0;0;28.4;21.0;86.9;1;0.97
+Ressonância;Eletivo;Pronto-Socorro;15;0;0;112.7;38.6;413.4;1;1.0
+Tomografia;Eletivo;Ambulatório;8;5;1;20.9;13.8;112.3;1;0.93
+Tomografia;Eletivo;Pronto-Socorro;5;1;0;26.0;15.0;102.9;1;1.0
+Ultrassom;Urgência;Internação (Leito);5;2;0;9.5;19.1;33.9;0;0.03
+Ultrassom;Eletivo;Pronto-Socorro;9;1;0;57.2;24.6;204.2;1;1.0
+ECG;Eletivo;Internação (Leito);19;1;0;11.9;10.7;35.0;1;0.96
+Tomografia;Eletivo;Internação (Leito);5;2;0;30.5;14.8;135.0;1;1.0
+Ultrassom;Urgência;Internação (Leito);20;1;0;19.6;21.0;47.2;0;0.03
+Tomografia;Eletivo;Internação (Leito);4;5;1;35.9;12.4;100.2;1;1.0
+Ressonância;Urgência;Pronto-Socorro;15;1;0;64.6;36.4;263.8;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;2;4;0;23.1;20.1;162.7;1;0.96
+Tomografia;Eletivo;Pronto-Socorro;5;4;0;28.3;16.2;100.3;1;0.97
+Ultrassom;Eletivo;Pronto-Socorro;23;2;0;15.7;23.1;56.6;0;0.34
+Tomografia;Urgência;Pronto-Socorro;6;2;0;19.2;16.0;49.4;0;0.0
+Tomografia;Urgência;Pronto-Socorro;15;6;1;21.7;13.8;65.1;0;0.0
+Tomografia;Eletivo;Internação (Leito);22;6;1;21.8;15.7;110.6;1;0.96
+Ressonância;Eletivo;Internação (Leito);12;3;0;41.5;33.7;162.2;1;0.99
+Ressonância;Eletivo;Internação (Leito);1;1;0;38.1;34.2;141.2;0;0.17
+Ressonância;Urgência;Internação (Leito);22;5;1;21.9;38.4;66.8;0;0.0
+Tomografia;Eletivo;Ambulatório;0;4;0;20.9;15.7;110.7;1;0.95
+Ressonância;Eletivo;Pronto-Socorro;19;3;0;43.3;32.0;148.8;1;0.97
+Ressonância;Urgência;Internação (Leito);20;2;0;25.1;34.0;80.4;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;18;5;1;24.5;17.7;103.5;1;0.99
+Ressonância;Eletivo;Ambulatório;11;0;0;85.2;33.6;340.9;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;1;4;0;19.7;15.5;85.8;0;0.04
+Ressonância;Eletivo;Ambulatório;13;3;0;33.3;36.4;128.6;0;0.01
+Ultrassom;Eletivo;Internação (Leito);20;2;0;16.3;19.7;52.5;0;0.05
+Tomografia;Emergência (Vermelho);Pronto-Socorro;6;1;0;7.4;15.8;34.9;0;0.0
+Ressonância;Urgência;Internação (Leito);8;1;0;65.4;31.2;268.3;1;1.0
+Tomografia;Urgência;Pronto-Socorro;11;0;0;43.0;16.9;187.1;1;1.0
+Ultrassom;Emergência (Vermelho);Internação (Leito);19;2;0;10.8;20.8;9.3;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;9;1;0;102.2;34.2;416.3;1;1.0
+Tomografia;Eletivo;Ambulatório;7;6;1;17.8;14.8;97.5;0;0.15
+Tomografia;Eletivo;Ambulatório;20;1;0;22.1;13.9;97.2;0;0.42
+Ultrassom;Eletivo;Ambulatório;20;1;0;17.1;22.4;80.1;1;0.92
+Tomografia;Emergência (Vermelho);Pronto-Socorro;22;2;0;10.7;14.3;52.1;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;11;5;1;16.6;13.9;75.2;0;0.02
+Ressonância;Eletivo;Internação (Leito);16;1;0;95.3;33.0;382.5;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;9;2;0;96.5;33.4;317.2;1;1.0
+Ultrassom;Eletivo;Internação (Leito);18;2;0;17.6;21.0;58.0;1;0.75
+Ultrassom;Urgência;Pronto-Socorro;19;6;1;23.3;19.4;33.4;0;0.12
+Ultrassom;Eletivo;Pronto-Socorro;0;1;0;23.4;17.8;78.3;1;0.95
+Ressonância;Eletivo;Pronto-Socorro;6;4;0;31.9;37.0;141.0;0;0.03
+Ultrassom;Eletivo;Internação (Leito);5;4;0;16.9;18.7;45.4;0;0.03
+Tomografia;Eletivo;Ambulatório;7;4;0;19.2;17.4;107.2;1;0.93
+Tomografia;Eletivo;Pronto-Socorro;9;2;0;77.0;17.3;321.6;1;1.0
+Ultrassom;Urgência;Ambulatório;18;0;0;16.4;19.8;34.0;0;0.02
+ECG;Eletivo;Internação (Leito);6;3;0;15.3;10.7;56.7;1;1.0
+ECG;Eletivo;Ambulatório;23;4;0;11.1;9.6;41.9;1;0.92
+Tomografia;Urgência;Pronto-Socorro;16;4;0;39.0;14.7;171.8;1;1.0
+Ressonância;Urgência;Pronto-Socorro;14;5;1;25.1;37.6;98.1;0;0.0
+Tomografia;Urgência;Pronto-Socorro;8;3;0;43.2;16.7;174.4;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;10;2;0;82.5;13.7;274.0;1;1.0
+ECG;Eletivo;Ambulatório;18;0;0;15.4;7.1;38.7;1;0.99
+Tomografia;Eletivo;Internação (Leito);16;3;0;69.5;16.1;291.0;1;1.0
+Ultrassom;Urgência;Internação (Leito);12;6;1;19.1;22.1;92.5;1;0.85
+Tomografia;Eletivo;Internação (Leito);18;6;1;29.6;14.9;92.0;1;0.55
+ECG;Emergência (Vermelho);Pronto-Socorro;6;2;0;24.5;8.0;7.0;0;0.16
+Ultrassom;Urgência;Pronto-Socorro;15;2;0;27.7;15.5;97.0;1;0.96
+ECG;Emergência (Vermelho);Pronto-Socorro;17;6;1;2.0;9.5;34.1;0;0.07
+Tomografia;Urgência;Ambulatório;15;5;1;13.9;13.5;93.9;0;0.01
+Tomografia;Urgência;Internação (Leito);2;5;1;11.7;14.0;52.7;0;0.0
+ECG;Eletivo;Internação (Leito);23;0;0;16.9;7.6;69.4;1;0.99
+Tomografia;Eletivo;Pronto-Socorro;22;6;1;27.1;15.1;137.2;1;0.99
+Ultrassom;Eletivo;Pronto-Socorro;8;3;0;50.3;20.3;148.1;1;1.0
+Ressonância;Urgência;Internação (Leito);19;0;0;19.1;34.9;94.2;0;0.0
+Tomografia;Urgência;Internação (Leito);7;6;1;24.6;17.1;61.9;0;0.04
+Tomografia;Eletivo;Ambulatório;9;2;0;65.9;12.4;269.4;1;1.0
+Ressonância;Urgência;Internação (Leito);18;6;1;20.3;38.0;67.2;0;0.0
+Tomografia;Eletivo;Internação (Leito);17;3;0;68.3;16.2;301.3;1;1.0
+Tomografia;Eletivo;Ambulatório;7;6;1;30.6;10.2;104.1;1;0.92
+ECG;Eletivo;Pronto-Socorro;4;5;1;9.5;12.9;26.9;0;0.19
+Tomografia;Emergência (Vermelho);Pronto-Socorro;16;6;1;8.3;18.8;19.7;0;0.0
+Tomografia;Urgência;Ambulatório;14;0;0;38.0;11.2;146.3;1;1.0
+Tomografia;Eletivo;Internação (Leito);14;2;0;62.8;17.0;321.4;1;1.0
+ECG;Eletivo;Internação (Leito);2;0;0;13.8;6.4;58.4;1;0.93
+Ressonância;Eletivo;Ambulatório;8;4;0;107.4;32.4;376.1;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;4;5;1;32.3;13.2;109.6;1;0.99
+Ressonância;Urgência;Ambulatório;9;2;0;60.2;34.8;227.0;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;23;2;0;16.5;19.9;41.9;0;0.01
+Tomografia;Urgência;Ambulatório;1;0;0;15.0;17.3;109.5;1;0.59
+Ressonância;Eletivo;Internação (Leito);4;3;0;31.8;32.5;131.6;0;0.0
+ECG;Eletivo;Internação (Leito);4;0;0;15.8;11.0;85.3;1;0.98
+Tomografia;Eletivo;Pronto-Socorro;3;6;1;30.2;14.0;93.4;1;0.7
+Ressonância;Eletivo;Ambulatório;16;0;0;77.6;37.7;310.5;1;1.0
+Ultrassom;Eletivo;Ambulatório;18;4;0;15.8;20.6;74.0;1;0.81
+Tomografia;Eletivo;Pronto-Socorro;21;4;0;38.8;13.5;109.9;1;1.0
+ECG;Urgência;Pronto-Socorro;1;1;0;8.8;10.4;40.0;1;0.88
+Ressonância;Urgência;Pronto-Socorro;9;1;0;48.3;35.9;193.2;1;0.99
+Ultrassom;Eletivo;Internação (Leito);4;3;0;15.9;21.3;71.5;1;0.93
+Tomografia;Eletivo;Pronto-Socorro;17;3;0;63.7;17.1;264.1;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;6;5;1;40.0;36.1;156.2;1;0.95
+Ultrassom;Eletivo;Pronto-Socorro;2;5;1;25.0;21.4;62.0;1;0.93
+Tomografia;Eletivo;Pronto-Socorro;22;6;1;28.0;16.8;99.5;1;0.99
+ECG;Eletivo;Internação (Leito);0;4;0;11.3;11.6;37.7;1;0.95
+Ressonância;Urgência;Internação (Leito);19;6;1;24.0;34.1;65.3;0;0.0
+Tomografia;Urgência;Internação (Leito);21;6;1;25.3;15.0;69.8;0;0.0
+ECG;Urgência;Pronto-Socorro;2;5;1;7.0;10.5;35.0;0;0.22
+Ressonância;Urgência;Pronto-Socorro;23;2;0;23.5;33.2;86.8;0;0.01
+Ultrassom;Eletivo;Internação (Leito);18;2;0;22.1;20.0;39.1;0;0.11
+Tomografia;Urgência;Internação (Leito);11;1;0;52.0;14.7;190.1;1;1.0
+Tomografia;Eletivo;Internação (Leito);5;1;0;24.0;17.0;82.9;0;0.03
+Tomografia;Emergência (Vermelho);Ambulatório;0;5;1;8.2;16.5;47.0;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;2;6;1;20.9;13.0;88.1;0;0.02
+Tomografia;Eletivo;Pronto-Socorro;4;6;1;26.3;14.7;104.1;1;0.99
+ECG;Emergência (Vermelho);Internação (Leito);11;5;1;26.0;12.4;10.4;1;0.26
+Tomografia;Eletivo;Pronto-Socorro;14;4;0;64.7;12.9;316.4;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;14;4;0;59.8;17.1;234.5;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;2;3;0;20.9;14.0;143.6;1;0.97
+Tomografia;Eletivo;Internação (Leito);11;2;0;61.9;14.7;267.2;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;1;3;0;19.8;15.9;99.1;0;0.5
+Ultrassom;Eletivo;Internação (Leito);22;5;1;16.3;19.0;46.6;0;0.04
+Ressonância;Eletivo;Pronto-Socorro;10;1;0;86.3;32.3;327.7;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;14;5;1;16.9;17.0;119.6;1;0.84
+ECG;Urgência;Pronto-Socorro;17;3;0;21.6;9.0;76.5;1;1.0
+Tomografia;Emergência (Vermelho);Pronto-Socorro;10;0;0;11.3;18.3;64.4;0;0.01
+Ressonância;Eletivo;Pronto-Socorro;14;2;0;93.4;35.3;392.8;1;1.0
+Tomografia;Eletivo;Internação (Leito);1;4;0;18.5;16.3;95.8;0;0.1
+Ultrassom;Eletivo;Internação (Leito);22;5;1;23.2;17.7;76.7;1;0.91
+ECG;Urgência;Pronto-Socorro;19;1;0;8.1;11.7;44.2;1;0.88
+Tomografia;Emergência (Vermelho);Internação (Leito);8;0;0;14.6;16.8;75.0;0;0.01
+Tomografia;Eletivo;Ambulatório;13;2;0;25.7;11.6;100.1;1;0.97
+Ultrassom;Emergência (Vermelho);Internação (Leito);13;4;0;9.0;20.7;19.6;0;0.0
+ECG;Urgência;Pronto-Socorro;16;2;0;19.8;10.0;55.7;1;0.99
+ECG;Eletivo;Pronto-Socorro;0;5;1;12.8;7.6;32.4;1;0.47
+Tomografia;Urgência;Ambulatório;13;3;0;16.1;16.1;79.0;0;0.0
+Ressonância;Urgência;Internação (Leito);11;2;0;63.1;36.6;241.0;1;1.0
+ECG;Eletivo;Ambulatório;8;4;0;33.6;10.6;133.4;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;9;3;0;91.0;31.5;344.3;1;1.0
+Tomografia;Urgência;Internação (Leito);10;4;0;42.9;15.3;170.4;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;23;4;0;18.0;17.1;76.2;0;0.04
+Ultrassom;Urgência;Ambulatório;18;0;0;24.0;19.7;42.2;0;0.19
+Ressonância;Urgência;Pronto-Socorro;21;5;1;34.3;32.3;92.2;0;0.01
+Tomografia;Eletivo;Pronto-Socorro;23;2;0;21.9;15.6;83.2;0;0.02
+Ultrassom;Emergência (Vermelho);Pronto-Socorro;22;4;0;3.8;19.0;61.3;0;0.21
+Ultrassom;Urgência;Ambulatório;5;5;1;9.8;21.5;39.5;0;0.02
+Ressonância;Urgência;Pronto-Socorro;0;6;1;30.6;34.2;70.9;0;0.0
+ECG;Eletivo;Pronto-Socorro;20;6;1;10.8;10.8;65.8;1;0.97
+Tomografia;Urgência;Ambulatório;8;4;0;33.9;12.8;159.2;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;22;1;0;38.8;38.1;142.8;1;0.64
+ECG;Urgência;Internação (Leito);16;4;0;18.2;7.6;76.4;1;0.99
+Tomografia;Emergência (Vermelho);Internação (Leito);23;1;0;9.5;14.5;24.1;0;0.0
+Ressonância;Eletivo;Ambulatório;6;3;0;37.2;37.3;139.0;0;0.05
+ECG;Urgência;Ambulatório;14;4;0;18.8;11.5;68.8;1;0.99
+Ultrassom;Eletivo;Pronto-Socorro;19;3;0;15.4;22.5;47.1;0;0.01
+Ressonância;Eletivo;Ambulatório;13;2;0;31.5;34.0;169.9;1;0.94
+Tomografia;Eletivo;Ambulatório;5;2;0;21.9;14.8;104.1;1;0.99
+Ressonância;Urgência;Ambulatório;13;4;0;16.6;34.5;100.5;0;0.01
+ECG;Emergência (Vermelho);Pronto-Socorro;15;0;0;16.5;9.9;20.9;0;0.06
+Tomografia;Eletivo;Pronto-Socorro;23;3;0;23.2;14.0;94.3;0;0.3
+Tomografia;Urgência;Internação (Leito);6;2;0;10.7;17.6;47.6;0;0.0
+ECG;Eletivo;Internação (Leito);23;6;1;9.1;11.4;49.8;1;0.91
+Tomografia;Emergência (Vermelho);Ambulatório;16;3;0;24.9;14.6;60.4;0;0.01
+ECG;Eletivo;Pronto-Socorro;15;1;0;28.4;9.7;89.2;1;1.0
+ECG;Eletivo;Pronto-Socorro;23;4;0;11.1;12.9;34.3;1;0.88
+ECG;Emergência (Vermelho);Internação (Leito);0;4;0;12.2;9.3;12.0;0;0.05
+Ultrassom;Urgência;Internação (Leito);12;6;1;10.6;21.5;33.0;0;0.01
+Ultrassom;Eletivo;Internação (Leito);11;1;0;55.6;16.7;163.0;1;1.0
+Tomografia;Emergência (Vermelho);Pronto-Socorro;18;6;1;3.8;12.0;91.3;0;0.02
+Ressonância;Urgência;Internação (Leito);0;4;0;17.9;33.8;70.7;0;0.0
+Tomografia;Urgência;Ambulatório;17;1;0;41.6;15.0;198.3;1;1.0
+Ressonância;Eletivo;Internação (Leito);3;3;0;33.7;33.0;125.3;0;0.01
+ECG;Eletivo;Pronto-Socorro;13;6;1;36.6;10.9;42.6;1;0.98
+Ultrassom;Eletivo;Internação (Leito);14;1;0;44.7;21.1;131.1;1;1.0
+Ultrassom;Urgência;Internação (Leito);20;6;1;12.7;22.2;34.0;0;0.05
+Tomografia;Urgência;Pronto-Socorro;20;3;0;13.5;13.8;63.2;0;0.0
+Ressonância;Eletivo;Ambulatório;7;2;0;38.2;33.0;130.7;0;0.05
+Ultrassom;Urgência;Internação (Leito);21;3;0;14.1;18.2;48.7;0;0.0
+Tomografia;Eletivo;Internação (Leito);16;1;0;77.8;16.9;362.3;1;1.0
+Ressonância;Eletivo;Internação (Leito);3;5;1;29.4;34.3;100.4;0;0.0
+ECG;Urgência;Internação (Leito);9;6;1;10.6;9.0;35.7;1;0.56
+Tomografia;Eletivo;Ambulatório;10;1;0;56.6;12.9;248.8;1;1.0
+ECG;Eletivo;Pronto-Socorro;6;4;0;16.5;10.1;28.5;0;0.53
+Ressonância;Eletivo;Internação (Leito);18;5;1;24.9;37.4;106.0;0;0.01
+Tomografia;Emergência (Vermelho);Internação (Leito);19;1;0;9.4;14.0;65.8;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;6;1;0;30.1;14.1;114.6;1;1.0
+Ultrassom;Eletivo;Internação (Leito);4;2;0;14.9;20.8;51.3;0;0.02
+ECG;Emergência (Vermelho);Internação (Leito);19;3;0;8.2;6.8;13.6;0;0.07
+Ressonância;Eletivo;Internação (Leito);23;2;0;38.6;35.4;130.2;0;0.02
+ECG;Eletivo;Pronto-Socorro;15;1;0;28.7;9.1;102.3;1;1.0
+ECG;Eletivo;Pronto-Socorro;2;5;1;16.5;10.0;77.8;1;0.96
+Ressonância;Urgência;Internação (Leito);4;3;0;15.8;34.1;64.1;0;0.0
+Ultrassom;Eletivo;Pronto-Socorro;9;2;0;75.6;20.3;140.7;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;22;3;0;22.5;16.8;86.8;0;0.05
+Ultrassom;Eletivo;Internação (Leito);2;0;0;15.0;22.6;44.6;0;0.08
+ECG;Urgência;Pronto-Socorro;5;0;0;8.3;12.1;45.9;1;0.84
+Tomografia;Eletivo;Pronto-Socorro;20;1;0;23.6;15.0;155.5;1;0.96
+Tomografia;Eletivo;Ambulatório;10;0;0;75.7;14.3;266.3;1;1.0
+Tomografia;Eletivo;Ambulatório;7;3;0;35.9;12.3;103.6;1;0.97
+Ressonância;Eletivo;Internação (Leito);23;2;0;32.6;38.1;109.1;0;0.01
+Tomografia;Emergência (Vermelho);Internação (Leito);9;2;0;17.6;11.6;85.4;0;0.01
+Ultrassom;Eletivo;Internação (Leito);21;2;0;15.5;19.8;64.7;1;0.87
+Tomografia;Urgência;Ambulatório;11;4;0;33.9;13.9;154.0;1;1.0
+Tomografia;Emergência (Vermelho);Ambulatório;17;4;0;20.7;13.2;79.4;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;1;0;0;35.1;37.1;141.5;0;0.04
+Tomografia;Urgência;Pronto-Socorro;23;6;1;19.0;14.2;100.8;0;0.16
+Tomografia;Eletivo;Pronto-Socorro;13;0;0;34.4;16.3;84.8;0;0.45
+Ressonância;Eletivo;Internação (Leito);4;3;0;34.7;39.2;137.2;0;0.02
+ECG;Eletivo;Ambulatório;7;2;0;11.5;12.0;44.6;1;0.98
+Ressonância;Eletivo;Internação (Leito);20;3;0;32.8;34.0;133.3;0;0.0
+Ressonância;Urgência;Pronto-Socorro;6;3;0;23.6;36.6;67.3;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;0;5;1;31.5;18.1;126.6;1;0.97
+Tomografia;Eletivo;Pronto-Socorro;19;2;0;21.6;12.3;171.0;1;0.95
+ECG;Eletivo;Pronto-Socorro;15;0;0;27.5;10.9;83.7;1;1.0
+Ressonância;Eletivo;Internação (Leito);21;5;1;29.2;35.7;130.3;0;0.02
+Ressonância;Eletivo;Internação (Leito);0;4;0;25.9;36.7;100.5;0;0.0
+Tomografia;Eletivo;Internação (Leito);23;3;0;17.3;15.4;104.4;1;0.89
+ECG;Urgência;Internação (Leito);0;4;0;12.5;10.7;27.5;0;0.09
+Tomografia;Eletivo;Ambulatório;9;4;0;70.1;14.3;269.5;1;1.0
+Ressonância;Eletivo;Internação (Leito);3;6;1;39.9;37.8;155.2;1;0.95
+Ressonância;Eletivo;Pronto-Socorro;3;1;0;39.4;36.8;137.3;0;0.06
+ECG;Eletivo;Pronto-Socorro;1;3;0;13.2;11.9;36.2;1;0.98
+Ultrassom;Urgência;Pronto-Socorro;18;5;1;10.0;19.9;28.4;0;0.04
+Tomografia;Eletivo;Internação (Leito);23;1;0;22.6;17.2;113.8;1;0.99
+Ultrassom;Eletivo;Internação (Leito);12;5;1;20.0;21.2;58.1;1;0.92
+Tomografia;Eletivo;Internação (Leito);2;6;1;26.6;13.3;110.2;1;0.95
+Tomografia;Eletivo;Pronto-Socorro;11;4;0;73.2;13.7;316.0;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;9;5;1;17.2;20.1;61.6;1;0.85
+ECG;Eletivo;Pronto-Socorro;3;6;1;10.0;11.5;27.7;0;0.12
+Tomografia;Eletivo;Internação (Leito);6;0;0;19.4;14.7;88.5;0;0.01
+ECG;Urgência;Ambulatório;8;1;0;21.6;9.8;66.3;1;1.0
+Ressonância;Eletivo;Ambulatório;2;5;1;31.8;33.5;121.1;0;0.01
+Ultrassom;Urgência;Internação (Leito);20;1;0;11.6;21.6;31.3;0;0.0
+Ultrassom;Urgência;Internação (Leito);9;0;0;26.3;22.6;144.4;1;0.93
+Ressonância;Urgência;Internação (Leito);4;0;0;33.8;32.6;74.9;0;0.0
+Ultrassom;Eletivo;Pronto-Socorro;6;3;0;28.5;20.7;38.7;0;0.43
+Tomografia;Urgência;Ambulatório;6;6;1;14.5;17.2;65.4;0;0.0
+Ressonância;Urgência;Internação (Leito);7;5;1;21.1;37.0;81.9;0;0.01
+Ultrassom;Urgência;Internação (Leito);20;0;0;12.1;21.8;29.8;0;0.03
+Tomografia;Urgência;Internação (Leito);2;1;0;16.7;14.4;78.6;0;0.0
+Tomografia;Urgência;Pronto-Socorro;14;1;0;39.6;12.2;178.7;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;10;3;0;75.5;16.2;316.3;1;1.0
+Tomografia;Eletivo;Internação (Leito);14;5;1;22.2;12.0;97.5;0;0.45
+Ressonância;Eletivo;Pronto-Socorro;5;4;0;28.3;35.0;116.5;0;0.01
+Ressonância;Eletivo;Internação (Leito);12;6;1;26.9;34.3;160.0;1;0.8
+Tomografia;Eletivo;Internação (Leito);20;3;0;21.8;13.8;101.8;1;0.98
+Ressonância;Urgência;Internação (Leito);19;0;0;27.5;36.9;78.7;0;0.0
+ECG;Eletivo;Pronto-Socorro;18;0;0;17.0;10.0;55.4;1;1.0
+Ultrassom;Urgência;Pronto-Socorro;12;6;1;12.1;23.3;105.6;1;0.78
+Ressonância;Eletivo;Internação (Leito);0;4;0;28.7;38.1;113.7;0;0.01
+Ultrassom;Eletivo;Pronto-Socorro;21;5;1;22.5;19.9;51.5;0;0.24
+Tomografia;Emergência (Vermelho);Internação (Leito);8;3;0;17.9;16.5;69.4;0;0.01
+Tomografia;Eletivo;Internação (Leito);11;3;0;67.2;15.7;298.3;1;1.0
+Ressonância;Eletivo;Internação (Leito);21;4;0;40.1;38.3;114.2;0;0.03
+Tomografia;Eletivo;Pronto-Socorro;15;1;0;71.5;17.6;273.2;1;1.0
+ECG;Eletivo;Pronto-Socorro;2;5;1;13.0;7.3;26.9;0;0.24
+Tomografia;Emergência (Vermelho);Internação (Leito);22;6;1;15.5;12.4;19.3;0;0.02
+Ressonância;Eletivo;Ambulatório;15;5;1;30.7;30.6;124.7;0;0.03
+Ultrassom;Urgência;Internação (Leito);2;0;0;21.8;20.5;105.8;1;0.85
+ECG;Urgência;Ambulatório;16;2;0;19.9;13.6;60.6;1;0.98
+ECG;Urgência;Ambulatório;8;5;1;11.9;11.4;49.7;1;0.9
+Tomografia;Eletivo;Pronto-Socorro;10;5;1;23.8;16.3;102.5;1;0.98
+Tomografia;Eletivo;Ambulatório;14;3;0;53.9;13.5;249.2;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;13;5;1;36.5;13.4;103.7;1;0.99
+ECG;Eletivo;Pronto-Socorro;4;4;0;14.2;10.2;47.7;1;1.0
+Ultrassom;Eletivo;Ambulatório;14;5;1;15.6;19.5;53.6;0;0.08
+Ressonância;Eletivo;Pronto-Socorro;7;5;1;43.1;34.7;159.5;1;0.96
+Ultrassom;Eletivo;Pronto-Socorro;5;6;1;15.4;24.0;70.2;1;0.82
+Ressonância;Eletivo;Ambulatório;7;3;0;33.4;32.4;120.8;0;0.01
+Ultrassom;Eletivo;Pronto-Socorro;13;5;1;15.8;17.1;65.1;1;0.8
+ECG;Urgência;Pronto-Socorro;22;6;1;16.0;10.0;40.2;1;0.83
+ECG;Urgência;Ambulatório;20;5;1;8.6;13.0;73.7;1;0.86
+Ultrassom;Emergência (Vermelho);Pronto-Socorro;16;3;0;10.4;24.8;27.6;0;0.02
+Ressonância;Eletivo;Internação (Leito);20;1;0;26.5;37.4;106.7;0;0.03
+Tomografia;Eletivo;Pronto-Socorro;8;5;1;43.6;15.0;106.2;1;0.96
+Ressonância;Eletivo;Pronto-Socorro;5;2;0;35.8;31.5;148.9;1;0.96
+Ultrassom;Eletivo;Pronto-Socorro;11;1;0;50.0;20.0;164.0;1;1.0
+Ultrassom;Eletivo;Ambulatório;19;4;0;25.5;21.7;54.5;1;0.56
+Ultrassom;Urgência;Pronto-Socorro;9;4;0;26.4;21.1;76.2;1;0.97
+Ultrassom;Emergência (Vermelho);Internação (Leito);20;2;0;4.0;16.7;13.7;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;19;4;0;43.2;35.8;146.2;1;0.98
+ECG;Eletivo;Pronto-Socorro;9;0;0;39.4;7.5;107.9;1;1.0
+ECG;Urgência;Ambulatório;3;2;0;8.3;10.3;80.1;1;0.84
+Ressonância;Eletivo;Internação (Leito);3;2;0;26.5;37.7;123.1;0;0.01
+Tomografia;Urgência;Pronto-Socorro;6;5;1;13.6;16.3;58.7;0;0.0
+Ressonância;Eletivo;Ambulatório;14;2;0;111.3;34.0;394.2;1;1.0
+Ultrassom;Urgência;Internação (Leito);4;2;0;10.5;19.5;62.4;0;0.43
+ECG;Emergência (Vermelho);Internação (Leito);21;4;0;7.9;5.8;8.7;0;0.03
+ECG;Eletivo;Ambulatório;5;6;1;10.9;11.0;42.4;1;0.97
+Tomografia;Emergência (Vermelho);Ambulatório;19;5;1;16.5;16.8;45.1;0;0.02
+Tomografia;Eletivo;Pronto-Socorro;12;3;0;17.2;12.5;92.6;0;0.04
+Ultrassom;Eletivo;Pronto-Socorro;2;1;0;20.1;19.0;40.2;0;0.1
+ECG;Eletivo;Pronto-Socorro;2;5;1;20.2;10.0;36.9;1;0.98
+Ultrassom;Urgência;Pronto-Socorro;1;5;1;10.6;20.6;27.4;0;0.01
+Ressonância;Eletivo;Internação (Leito);4;2;0;31.1;36.5;109.6;0;0.0
+Ressonância;Urgência;Pronto-Socorro;5;3;0;22.6;33.4;104.3;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;5;0;0;31.1;34.0;136.6;0;0.0
+Ultrassom;Eletivo;Pronto-Socorro;7;4;0;19.4;20.1;65.3;1;0.97
+Tomografia;Eletivo;Internação (Leito);8;4;0;61.9;15.7;299.8;1;1.0
+Tomografia;Urgência;Pronto-Socorro;8;1;0;43.5;17.0;224.9;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;23;2;0;34.1;14.2;129.9;1;0.98
+Ressonância;Eletivo;Internação (Leito);8;3;0;105.2;34.4;423.9;1;1.0
+Ressonância;Eletivo;Internação (Leito);4;5;1;37.1;35.4;152.2;1;0.96
+Tomografia;Eletivo;Internação (Leito);18;2;0;29.8;12.7;105.6;1;0.99
+Tomografia;Emergência (Vermelho);Pronto-Socorro;9;1;0;15.3;19.6;69.4;0;0.05
+Tomografia;Urgência;Pronto-Socorro;4;4;0;13.0;17.1;63.2;0;0.0
+Ultrassom;Urgência;Internação (Leito);20;0;0;10.5;17.9;61.3;0;0.41
+ECG;Eletivo;Internação (Leito);3;1;0;14.4;9.0;36.0;1;1.0
+Ultrassom;Urgência;Pronto-Socorro;20;6;1;9.9;19.3;42.8;0;0.01
+Ultrassom;Urgência;Pronto-Socorro;22;3;0;13.7;22.4;38.6;0;0.01
+ECG;Eletivo;Internação (Leito);19;0;0;11.4;8.8;57.1;1;0.99
+Tomografia;Eletivo;Pronto-Socorro;20;3;0;24.9;14.1;136.5;1;1.0
+ECG;Eletivo;Internação (Leito);11;1;0;30.4;12.1;94.0;1;1.0
+Tomografia;Urgência;Internação (Leito);2;3;0;21.2;17.7;61.6;0;0.01
+ECG;Eletivo;Pronto-Socorro;19;4;0;9.5;10.1;44.1;1;0.95
+Ressonância;Eletivo;Internação (Leito);15;5;1;39.9;33.2;154.6;1;0.98
+Tomografia;Emergência (Vermelho);Internação (Leito);12;2;0;6.0;16.1;42.3;0;0.0
+Tomografia;Eletivo;Ambulatório;8;5;1;29.2;16.7;86.0;0;0.28
+Ultrassom;Eletivo;Internação (Leito);11;1;0;45.5;19.5;142.8;1;1.0
+Ressonância;Emergência (Vermelho);Pronto-Socorro;18;4;0;7.2;35.9;65.3;0;0.01
+Ressonância;Urgência;Pronto-Socorro;11;0;0;64.0;35.5;245.2;1;1.0
+Tomografia;Urgência;Pronto-Socorro;16;0;0;39.0;12.8;209.2;1;0.99
+Ultrassom;Urgência;Internação (Leito);9;5;1;12.9;19.8;48.9;0;0.04
+Tomografia;Eletivo;Internação (Leito);2;3;0;22.6;17.5;103.3;1;0.99
+Ressonância;Eletivo;Pronto-Socorro;11;0;0;95.6;33.2;355.2;1;1.0
+Ressonância;Eletivo;Internação (Leito);21;5;1;39.7;34.2;123.9;0;0.13
+Tomografia;Eletivo;Ambulatório;9;0;0;76.6;12.3;337.9;1;1.0
+Tomografia;Eletivo;Internação (Leito);13;2;0;26.1;13.4;106.2;1;1.0
+Ressonância;Urgência;Ambulatório;8;3;0;49.5;33.1;194.7;1;0.98
+Ressonância;Eletivo;Pronto-Socorro;3;3;0;42.7;35.9;140.3;1;0.54
+Ultrassom;Eletivo;Internação (Leito);4;4;0;24.1;18.9;75.3;1;0.92
+Ultrassom;Urgência;Ambulatório;13;3;0;11.1;19.2;31.8;0;0.0
+Tomografia;Urgência;Internação (Leito);18;4;0;18.0;14.9;87.1;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;20;6;1;31.8;34.3;104.3;0;0.01
+Ressonância;Eletivo;Internação (Leito);19;0;0;35.4;33.5;135.4;0;0.01
+Ressonância;Eletivo;Internação (Leito);2;2;0;36.9;31.6;154.1;1;0.99
+Ultrassom;Urgência;Pronto-Socorro;1;3;0;11.8;17.8;61.9;0;0.19
+Ultrassom;Eletivo;Internação (Leito);3;1;0;20.1;17.8;49.9;0;0.15
+Tomografia;Eletivo;Pronto-Socorro;12;2;0;28.9;15.8;142.0;1;0.99
+Tomografia;Eletivo;Pronto-Socorro;14;1;0;73.5;15.9;303.3;1;1.0
+Ultrassom;Urgência;Internação (Leito);1;4;0;9.9;21.4;30.4;0;0.0
+Ultrassom;Urgência;Pronto-Socorro;23;4;0;17.3;19.4;45.7;0;0.0
+Ultrassom;Urgência;Ambulatório;0;3;0;13.0;17.8;42.0;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;16;6;1;30.4;12.0;122.2;1;0.98
+ECG;Urgência;Pronto-Socorro;4;2;0;12.6;12.6;28.9;0;0.23
+Ultrassom;Urgência;Ambulatório;8;2;0;29.3;17.8;89.9;1;0.95
+Tomografia;Eletivo;Ambulatório;15;4;0;53.9;17.5;262.5;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;6;1;0;35.0;33.9;154.1;1;0.98
+Tomografia;Urgência;Internação (Leito);11;1;0;40.5;15.5;217.2;1;1.0
+Tomografia;Urgência;Internação (Leito);9;2;0;47.2;13.7;233.5;1;1.0
+ECG;Eletivo;Internação (Leito);9;4;0;41.1;10.3;109.2;1;1.0
+ECG;Eletivo;Internação (Leito);9;5;1;18.2;10.3;37.7;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;15;2;0;72.2;14.2;319.4;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;16;4;0;95.7;36.3;350.0;1;1.0
+Ultrassom;Eletivo;Internação (Leito);23;6;1;18.3;21.3;47.9;0;0.11
+Ultrassom;Eletivo;Pronto-Socorro;10;0;0;50.2;18.6;129.2;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;14;1;0;72.3;14.9;366.8;1;1.0
+Ultrassom;Urgência;Pronto-Socorro;2;5;1;37.9;17.2;39.0;1;0.3
+ECG;Eletivo;Internação (Leito);7;1;0;19.0;11.7;76.2;1;1.0
+ECG;Urgência;Internação (Leito);6;3;0;6.4;7.3;20.1;0;0.03
+Tomografia;Eletivo;Pronto-Socorro;18;2;0;25.9;17.3;115.4;1;1.0
+ECG;Eletivo;Ambulatório;18;1;0;21.0;13.3;54.3;1;0.93
+Ressonância;Urgência;Internação (Leito);22;4;0;27.5;33.8;122.7;0;0.03
+Tomografia;Eletivo;Internação (Leito);20;6;1;21.6;18.2;103.1;1;0.92
+Ressonância;Urgência;Ambulatório;3;4;0;16.4;37.8;80.9;0;0.0
+Ultrassom;Urgência;Internação (Leito);9;4;0;31.6;21.3;117.0;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;16;5;1;39.6;12.5;104.4;1;0.96
+Tomografia;Urgência;Ambulatório;14;5;1;17.2;15.5;54.5;0;0.0
+Ressonância;Urgência;Pronto-Socorro;16;4;0;57.8;33.5;249.8;1;1.0
+Ressonância;Eletivo;Internação (Leito);1;3;0;32.5;37.5;118.3;0;0.01
+Ressonância;Eletivo;Ambulatório;11;0;0;94.5;33.6;365.3;1;1.0
+Ressonância;Emergência (Vermelho);Pronto-Socorro;20;0;0;7.5;34.2;29.7;0;0.0
+ECG;Eletivo;Internação (Leito);14;5;1;15.1;6.8;35.9;1;0.98
+Tomografia;Eletivo;Pronto-Socorro;2;0;0;20.6;14.9;95.1;0;0.07
+Ressonância;Emergência (Vermelho);Internação (Leito);11;5;1;5.7;32.6;23.1;0;0.0
+Ressonância;Emergência (Vermelho);Pronto-Socorro;20;4;0;7.7;31.1;40.4;0;0.0
+ECG;Eletivo;Pronto-Socorro;5;2;0;17.3;8.6;32.2;1;0.74
+ECG;Eletivo;Pronto-Socorro;17;2;0;28.3;12.6;87.8;1;0.99
+Tomografia;Emergência (Vermelho);Internação (Leito);12;6;1;10.3;12.5;20.3;0;0.02
+Ressonância;Emergência (Vermelho);Pronto-Socorro;12;3;0;6.1;36.3;31.6;0;0.0
+ECG;Eletivo;Pronto-Socorro;11;1;0;40.9;10.5;113.8;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;2;2;0;14.4;20.6;44.2;0;0.09
+Ultrassom;Emergência (Vermelho);Internação (Leito);3;1;0;4.8;20.1;15.1;0;0.0
+Tomografia;Eletivo;Internação (Leito);21;6;1;30.1;14.9;95.4;1;0.79
+Ultrassom;Urgência;Pronto-Socorro;12;4;0;9.7;19.4;39.9;0;0.0
+Ressonância;Urgência;Pronto-Socorro;1;1;0;25.4;31.1;157.1;1;0.48
+Tomografia;Urgência;Internação (Leito);17;1;0;38.7;15.0;169.9;1;1.0
+Tomografia;Urgência;Pronto-Socorro;17;0;0;33.6;15.6;158.4;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;3;6;1;37.3;36.2;151.1;1;0.92
+Tomografia;Eletivo;Internação (Leito);17;1;0;71.4;16.9;320.1;1;1.0
+ECG;Urgência;Pronto-Socorro;3;6;1;11.2;8.6;26.8;0;0.01
+ECG;Eletivo;Internação (Leito);7;3;0;20.1;8.4;39.8;1;1.0
+Tomografia;Emergência (Vermelho);Internação (Leito);15;1;0;23.3;16.4;85.8;0;0.03
+Ultrassom;Eletivo;Pronto-Socorro;17;0;0;47.0;19.1;127.4;1;1.0
+Tomografia;Urgência;Internação (Leito);5;5;1;15.7;13.1;56.2;0;0.0
+Ressonância;Urgência;Pronto-Socorro;10;2;0;58.6;33.1;218.1;1;1.0
+Ultrassom;Eletivo;Ambulatório;3;3;0;20.9;17.8;49.1;0;0.15
+Tomografia;Eletivo;Internação (Leito);7;4;0;19.9;14.6;75.8;0;0.02
+Ressonância;Eletivo;Internação (Leito);5;3;0;33.5;32.0;136.8;0;0.01
+ECG;Eletivo;Pronto-Socorro;12;6;1;17.2;11.8;30.2;1;0.71
+Ressonância;Emergência (Vermelho);Pronto-Socorro;9;2;0;17.8;36.8;84.0;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;7;6;1;25.6;15.1;120.4;1;0.99
+ECG;Eletivo;Ambulatório;13;3;0;10.5;10.6;53.6;1;0.94
+Ultrassom;Urgência;Ambulatório;9;2;0;31.9;20.2;109.3;1;1.0
+Ressonância;Urgência;Ambulatório;5;2;0;16.7;28.7;69.8;0;0.0
+Ressonância;Eletivo;Ambulatório;1;4;0;39.0;35.1;156.7;1;0.97
+ECG;Urgência;Pronto-Socorro;7;5;1;7.3;7.2;22.7;0;0.08
+Ressonância;Eletivo;Pronto-Socorro;16;5;1;30.5;36.1;120.8;0;0.0
+Ressonância;Eletivo;Internação (Leito);4;4;0;32.1;33.0;133.9;0;0.0
+Ressonância;Eletivo;Internação (Leito);19;1;0;27.9;39.8;105.7;0;0.01
+Ultrassom;Eletivo;Pronto-Socorro;3;1;0;17.5;21.8;58.2;1;0.75
+Ultrassom;Eletivo;Internação (Leito);7;6;1;28.2;19.6;54.8;1;0.78
+Ultrassom;Eletivo;Pronto-Socorro;10;0;0;41.5;19.9;125.3;1;0.99
+ECG;Eletivo;Pronto-Socorro;22;1;0;16.0;10.9;32.8;1;0.94
+Ressonância;Eletivo;Internação (Leito);0;6;1;34.2;35.9;114.6;0;0.0
+ECG;Eletivo;Internação (Leito);9;1;0;47.1;10.2;120.3;1;1.0
+Ressonância;Eletivo;Internação (Leito);22;0;0;40.3;36.6;168.3;1;0.94
+ECG;Eletivo;Ambulatório;8;5;1;11.2;10.7;46.1;1;0.96
+Ressonância;Eletivo;Pronto-Socorro;18;5;1;36.1;36.1;150.1;1;0.97
+Ressonância;Emergência (Vermelho);Internação (Leito);14;4;0;20.5;34.6;90.4;0;0.0
+Ressonância;Emergência (Vermelho);Internação (Leito);21;5;1;21.7;34.7;40.0;0;0.01
+Ressonância;Emergência (Vermelho);Pronto-Socorro;11;1;0;21.3;36.1;82.5;0;0.0
+Ultrassom;Urgência;Pronto-Socorro;21;0;0;13.6;19.5;30.6;0;0.03
+ECG;Emergência (Vermelho);Pronto-Socorro;10;5;1;8.5;10.2;15.6;0;0.06
+ECG;Eletivo;Pronto-Socorro;18;2;0;9.6;11.0;46.9;1;0.92
+ECG;Eletivo;Ambulatório;0;6;1;14.8;10.3;32.0;1;0.59
+Ultrassom;Eletivo;Pronto-Socorro;16;4;0;44.8;18.5;140.2;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;11;1;0;88.0;35.2;364.6;1;1.0
+Ressonância;Urgência;Ambulatório;17;4;0;63.3;37.5;261.0;1;1.0
+Tomografia;Eletivo;Internação (Leito);5;5;1;27.1;16.3;94.3;1;0.62
+Tomografia;Eletivo;Pronto-Socorro;8;2;0;61.4;13.6;317.3;1;1.0
+ECG;Eletivo;Internação (Leito);17;4;0;36.4;10.8;123.5;1;1.0
+Ultrassom;Urgência;Ambulatório;6;3;0;10.7;21.1;34.6;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;16;0;0;59.7;16.7;367.3;1;1.0
+Ressonância;Eletivo;Ambulatório;20;5;1;35.3;38.2;136.9;0;0.01
+Tomografia;Eletivo;Ambulatório;14;6;1;29.9;12.1;76.2;0;0.12
+Ultrassom;Eletivo;Internação (Leito);13;4;0;15.7;20.8;51.6;0;0.05
+Tomografia;Eletivo;Pronto-Socorro;6;5;1;24.0;14.6;115.0;1;0.94
+Tomografia;Emergência (Vermelho);Internação (Leito);9;2;0;20.7;11.5;65.5;0;0.04
+Ressonância;Urgência;Pronto-Socorro;4;4;0;33.8;29.8;87.5;0;0.01
+Ultrassom;Eletivo;Internação (Leito);6;6;1;18.2;19.2;76.0;1;0.95
+ECG;Emergência (Vermelho);Pronto-Socorro;0;6;1;2.9;12.1;33.2;0;0.07
+Ressonância;Eletivo;Ambulatório;22;1;0;30.6;34.6;117.3;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;0;1;0;19.7;11.8;92.0;0;0.03
+Tomografia;Urgência;Internação (Leito);15;4;0;43.1;15.8;195.9;1;1.0
+Ressonância;Eletivo;Internação (Leito);15;2;0;102.2;33.8;372.4;1;1.0
+Ressonância;Eletivo;Internação (Leito);8;0;0;84.8;36.6;325.9;1;1.0
+Tomografia;Eletivo;Pronto-Socorro;6;4;0;20.6;12.9;81.5;0;0.03
+Tomografia;Eletivo;Ambulatório;3;6;1;30.8;17.3;97.8;1;0.94
+Tomografia;Emergência (Vermelho);Internação (Leito);14;3;0;20.3;13.9;65.7;0;0.0
+Tomografia;Urgência;Pronto-Socorro;3;2;0;16.8;14.6;96.8;0;0.03
+Ultrassom;Urgência;Internação (Leito);1;3;0;14.2;18.7;42.0;0;0.06
+Ultrassom;Urgência;Ambulatório;8;3;0;28.0;19.8;98.5;1;1.0
+Tomografia;Eletivo;Internação (Leito);4;1;0;18.6;14.6;74.7;0;0.0
+Ultrassom;Emergência (Vermelho);Pronto-Socorro;0;1;0;7.4;17.0;10.2;0;0.01
+Ressonância;Urgência;Pronto-Socorro;1;1;0;20.7;34.5;73.1;0;0.0
+Ultrassom;Urgência;Pronto-Socorro;21;6;1;11.5;19.1;28.5;0;0.01
+Ressonância;Eletivo;Ambulatório;15;2;0;94.9;38.7;327.6;1;1.0
+ECG;Eletivo;Internação (Leito);15;2;0;34.7;10.8;144.8;1;0.99
+Tomografia;Eletivo;Pronto-Socorro;22;6;1;24.1;14.2;105.7;1;0.98
+Ultrassom;Eletivo;Pronto-Socorro;22;2;0;25.5;20.9;48.5;0;0.23
+Tomografia;Eletivo;Pronto-Socorro;10;6;1;32.8;16.0;89.6;1;0.4
+Tomografia;Urgência;Pronto-Socorro;23;6;1;16.0;13.9;70.8;0;0.0
+Ressonância;Eletivo;Ambulatório;19;0;0;36.4;34.3;187.3;1;0.95
+ECG;Urgência;Ambulatório;10;4;0;16.4;10.6;90.8;1;0.99
+ECG;Eletivo;Ambulatório;0;6;1;16.2;9.7;36.0;1;0.94
+Tomografia;Eletivo;Pronto-Socorro;17;1;0;59.5;16.5;305.3;1;1.0
+Ressonância;Urgência;Internação (Leito);19;3;0;20.7;37.1;83.2;0;0.0
+Ressonância;Eletivo;Internação (Leito);18;4;0;31.9;33.1;171.6;1;0.91
+Tomografia;Eletivo;Pronto-Socorro;21;3;0;25.2;16.1;123.5;1;1.0
+Ressonância;Eletivo;Ambulatório;16;5;1;39.4;32.8;126.9;0;0.12
+Ultrassom;Eletivo;Ambulatório;18;4;0;16.2;20.6;46.9;0;0.01
+Ultrassom;Eletivo;Pronto-Socorro;2;6;1;25.9;20.9;55.6;1;0.85
+ECG;Eletivo;Ambulatório;5;3;0;11.8;8.8;42.2;1;0.99
+ECG;Urgência;Pronto-Socorro;2;4;0;8.5;12.5;41.3;1;0.88
+Tomografia;Emergência (Vermelho);Internação (Leito);15;1;0;13.8;14.1;60.8;0;0.02
+Ressonância;Urgência;Internação (Leito);4;3;0;20.9;33.8;79.8;0;0.0
+ECG;Eletivo;Pronto-Socorro;2;1;0;16.0;8.5;31.7;1;0.7
+Ressonância;Urgência;Ambulatório;15;2;0;55.6;35.6;219.7;1;1.0
+ECG;Eletivo;Internação (Leito);22;2;0;18.1;8.5;39.3;1;1.0
+Ressonância;Eletivo;Ambulatório;17;3;0;78.7;34.2;351.7;1;1.0
+Ressonância;Urgência;Ambulatório;14;0;0;59.6;34.9;273.8;1;1.0
+Ultrassom;Urgência;Internação (Leito);12;2;0;13.7;20.1;37.8;0;0.0
+Tomografia;Urgência;Internação (Leito);2;4;0;13.5;14.5;79.2;0;0.01
+Ressonância;Eletivo;Internação (Leito);23;4;0;34.6;36.1;138.6;0;0.01
+Tomografia;Urgência;Ambulatório;17;1;0;41.6;15.3;207.6;1;1.0
+Tomografia;Urgência;Internação (Leito);14;6;1;14.3;12.2;70.5;0;0.0
+ECG;Urgência;Pronto-Socorro;17;4;0;20.7;9.8;70.6;1;0.99
+Tomografia;Eletivo;Pronto-Socorro;22;3;0;21.2;16.2;107.7;1;0.97
+Tomografia;Eletivo;Ambulatório;10;2;0;71.6;15.7;312.2;1;1.0
+Tomografia;Eletivo;Ambulatório;21;5;1;24.8;15.5;109.6;1;0.99
+Ressonância;Urgência;Ambulatório;2;6;1;18.8;34.3;95.0;0;0.0
+Tomografia;Urgência;Internação (Leito);9;1;0;32.3;15.0;179.6;1;0.99
+Ultrassom;Urgência;Ambulatório;7;0;0;12.7;22.4;34.7;0;0.02
+Ultrassom;Eletivo;Ambulatório;7;6;1;15.8;19.5;85.6;1;0.89
+Ultrassom;Eletivo;Ambulatório;22;2;0;19.3;23.8;42.7;0;0.08
+Tomografia;Eletivo;Pronto-Socorro;0;5;1;26.2;14.5;105.1;1;0.98
+ECG;Eletivo;Pronto-Socorro;20;1;0;12.4;6.3;39.1;1;0.96
+Tomografia;Eletivo;Ambulatório;5;3;0;35.8;16.3;90.2;1;0.64
+Ultrassom;Urgência;Internação (Leito);22;2;0;18.4;21.8;31.3;0;0.02
+Ressonância;Eletivo;Internação (Leito);1;1;0;30.2;33.3;112.2;0;0.0
+Tomografia;Eletivo;Pronto-Socorro;14;0;0;73.6;16.7;290.6;1;1.0
+ECG;Eletivo;Internação (Leito);21;5;1;25.4;9.1;45.8;1;0.98
+Ressonância;Eletivo;Ambulatório;5;3;0;35.8;36.9;151.1;1;0.89
+Ressonância;Emergência (Vermelho);Pronto-Socorro;9;2;0;26.8;32.2;101.0;0;0.0
+ECG;Urgência;Pronto-Socorro;20;2;0;6.1;9.1;55.7;1;0.85
+Ressonância;Eletivo;Internação (Leito);17;5;1;38.3;33.7;125.1;0;0.08
+Ultrassom;Eletivo;Ambulatório;16;1;0;59.9;20.9;188.5;1;1.0
+ECG;Urgência;Pronto-Socorro;5;2;0;7.6;10.2;34.9;0;0.22
+Tomografia;Urgência;Ambulatório;4;4;0;13.2;19.1;69.8;0;0.0
+Ultrassom;Urgência;Ambulatório;1;2;0;10.6;20.7;36.2;0;0.0
+Tomografia;Eletivo;Internação (Leito);6;3;0;22.8;16.8;101.7;1;1.0
+Tomografia;Urgência;Pronto-Socorro;3;6;1;13.8;14.1;56.5;0;0.02
+Tomografia;Urgência;Ambulatório;7;5;1;18.3;14.9;67.4;0;0.0
+Ultrassom;Urgência;Pronto-Socorro;12;6;1;16.0;19.3;28.0;0;0.0
+Ressonância;Urgência;Pronto-Socorro;18;2;0;22.1;30.8;92.9;0;0.0
+Ressonância;Eletivo;Pronto-Socorro;19;3;0;54.3;33.2;168.5;1;0.99
+Tomografia;Eletivo;Ambulatório;5;3;0;21.0;17.6;107.9;1;0.97
+ECG;Eletivo;Internação (Leito);9;4;0;42.0;10.3;151.1;1;1.0
+Tomografia;Eletivo;Internação (Leito);9;1;0;56.9;15.8;288.8;1;1.0
+ECG;Eletivo;Ambulatório;21;2;0;13.7;10.2;43.1;1;1.0
+ECG;Eletivo;Pronto-Socorro;19;4;0;11.0;9.9;36.1;1;0.96
+ECG;Eletivo;Ambulatório;2;3;0;12.9;10.3;43.7;1;1.0
+Ultrassom;Eletivo;Ambulatório;18;6;1;17.0;20.4;44.0;0;0.07
+Ultrassom;Eletivo;Internação (Leito);1;3;0;17.0;22.4;93.1;1;0.92
+Ultrassom;Eletivo;Ambulatório;15;0;0;48.4;21.4;144.1;1;1.0
+Ultrassom;Eletivo;Pronto-Socorro;18;2;0;22.3;22.9;117.2;1;1.0
+ECG;Eletivo;Internação (Leito);3;1;0;16.4;9.5;32.5;1;0.79
+Ressonância;Urgência;Internação (Leito);6;3;0;20.9;38.4;112.0;0;0.02
+Tomografia;Urgência;Pronto-Socorro;7;4;0;15.1;16.2;72.5;0;0.0
+Ressonância;Urgência;Internação (Leito);21;4;0;27.8;31.7;78.3;0;0.02
+Ultrassom;Eletivo;Pronto-Socorro;12;3;0;20.9;22.6;47.7;0;0.11
+Ressonância;Eletivo;Pronto-Socorro;15;4;0;104.6;34.4;457.9;1;1.0
+ECG;Urgência;Internação (Leito);10;2;0;23.0;11.2;59.2;1;0.99
+ECG;Eletivo;Pronto-Socorro;12;1;0;11.5;9.4;57.2;1;0.99
+Ressonância;Emergência (Vermelho);Pronto-Socorro;21;6;1;10.3;35.5;33.6;0;0.0
+Tomografia;Emergência (Vermelho);Pronto-Socorro;2;3;0;4.1;15.3;45.2;0;0.01
+Tomografia;Eletivo;Internação (Leito);19;4;0;27.8;18.8;119.4;1;0.98
+Ultrassom;Eletivo;Internação (Leito);19;2;0;18.2;18.4;55.4;0;0.36
+Ressonância;Eletivo;Ambulatório;15;2;0;102.3;32.4;325.7;1;1.0
+Ressonância;Eletivo;Pronto-Socorro;15;6;1;25.3;35.7;118.5;0;0.01
+Ressonância;Urgência;Pronto-Socorro;6;5;1;29.7;34.3;89.8;0;0.0
+Ultrassom;Eletivo;Pronto-Socorro;5;0;0;17.5;17.7;67.5;1;0.88
+Tomografia;Urgência;Pronto-Socorro;15;4;0;40.1;14.4;197.9;1;1.0
+Tomografia;Urgência;Pronto-Socorro;23;4;0;14.5;14.4;63.9;0;0.0

@@ -13,8 +13,11 @@ A solução consolida métricas operacionais chave (KPIs), prevê oscilações t
 
 ## 📸 Interface do Painel
 
-> *Adicione aqui uma imagem/print do seu dashboard finalizado*  
+> *Dashboard realizado no Power BI*  
 > ![Dashboard Overview](dashboard/dashboard_preview.png)
+
+> *Dashboard Web realizado com HTML5, CSS3 (Tailwind CSS) e JavaScript (ES6+)*
+> ![Web Dashboard Overview](dashboard/web_dashboard_preview.png)
 
 ---
 
