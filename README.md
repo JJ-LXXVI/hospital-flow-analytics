@@ -2,6 +2,9 @@
 
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
 
 ## 📌 Visão Geral
@@ -11,12 +14,18 @@ A solução consolida métricas operacionais chave (KPIs), prevê oscilações t
 
 ---
 
+## 🌐 Demonstração ao Vivo (Web Dashboard)
+
+👉 **[Acessar o Dashboard Web Interativo](https://jj-lxxvi.github.io/hospital-flow-analytics/dashboard/)**
+
+---
+
 ## 📸 Interface do Painel
 
-> *Dashboard realizado no Power BI*  
+> **Dashboard realizado no Power BI**  
 > ![Dashboard Overview](dashboard/dashboard_preview.png)
 
-> *Dashboard Web realizado com HTML5, CSS3 (Tailwind CSS) e JavaScript (ES6+)*
+> **Dashboard Web realizado com HTML5, CSS3 (Tailwind CSS) e JavaScript (ES6+)**  
 > ![Web Dashboard Overview](dashboard/web_dashboard_preview.png)
 
 ---
@@ -50,12 +59,16 @@ A solução consolida métricas operacionais chave (KPIs), prevê oscilações t
 ## 🛠️ Tecnologias Utilizadas
 * **Microsoft Power BI Desktop:** Construção do modelo de dados, layout de UI/UX e visualizações.
 * **DAX (Data Analysis Expressions):** Criação de medidas agregadoras, cálculo de probabilidade e métricas de demanda.
-* **Modelagem de Dados:** Estruturação de dados relacionais para performance preditiva.
+* **Web Frontend (HTML5 / Tailwind CSS / Chart.js):** Interface interativa desenvolvida para navegação fluida diretamente via navegador.
+* **Modelagem de Dados & Python:** Estruturação de dados relacionais e execução do pipeline preditivo.
 
 ---
 
 ## 🚀 Como Executar o Projeto
 
 1. Faça o clone ou download deste repositório.
-2. Certifique-se de ter o **Power BI Desktop** instalado em sua máquina.
-3. Abra o arquivo `.pbix` localizado na pasta principal do projeto.
+2. Para visualizar a versão Power BI:
+   * Certifique-se de ter o **Power BI Desktop** instalado em sua máquina.
+   * Abra o arquivo `hospital_flow_dashboard.pbix` localizado na pasta `dashboard/`.
+3. Para visualizar a versão Web localmente:
+   * Abra o arquivo `index.html` (ou `hospitalar_interactive_web_dashboard.html`) localizado na pasta `dashboard/` diretamente em seu navegador.
