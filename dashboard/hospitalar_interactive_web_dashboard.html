@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Preditivo de Exames & Gargalos</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#0f172a',
+                        darkcard: '#1e293b',
+                        darkborder: '#334155'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Chart.js & PapaParse -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #475569; }
+    </style>
+</head>
+<body class="bg-darkbg text-slate-100 font-sans antialiased min-h-screen flex flex-col md:flex-row">
+
+    <!-- SIDEBAR -->
+    <aside class="w-full md:w-64 bg-darkcard border-r border-darkborder flex-shrink-0 flex flex-col justify-between p-4">
+        <div>
+            <div class="flex items-center gap-3 px-2 py-4 border-b border-darkborder mb-6">
+                <i data-lucide="activity" class="w-8 h-8 text-sky-400"></i>
+                <div>
+                    <h1 class="font-bold text-lg text-white leading-tight">HealthAnalytics</h1>
+                    <span class="text-xs text-slate-400">Predição de Gargalos</span>
+                </div>
+            </div>
+
+            <nav class="space-y-1">
+                <a href="#overview" class="flex items-center gap-3 px-3 py-2.5 rounded-lg bg-sky-500/10 text-sky-400 font-medium">
+                    <i data-lucide="layout-dashboard" class="w-5 h-5"></i> Dashboard Principal
+                </a>
+                <a href="#table-section" class="flex items-center gap-3 px-3 py-2.5 rounded-lg text-slate-400 hover:bg-slate-800 hover:text-slate-200 transition">
+                    <i data-lucide="table" class="w-5 h-5"></i> Tabela Registros
+                </a>
+            </nav>
+        </div>
+
+        <div class="border-t border-darkborder pt-4 text-xs text-slate-500 text-center">
+            Jonathas Analytics &copy; 2026
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="flex-1 flex flex-col min-w-0 overflow-y-auto">
+        <!-- HEADER -->
+        <header class="bg-darkcard/50 border-b border-darkborder p-4 sticky top-0 backdrop-blur z-10 flex flex-wrap items-center justify-between gap-4">
+            <div>
+                <h2 class="text-xl font-bold text-white">Visão Geral Operacional</h2>
+                <p class="text-xs text-slate-400">Análise de Risco de Gargalo e Demanda Preditiva de Exames</p>
+            </div>
+
+            <!-- Uploads Manuais -->
+            <div class="flex flex-wrap items-center gap-3">
+                <label class="cursor-pointer bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs py-2 px-3 rounded-lg border border-darkborder flex items-center gap-2 transition">
+                    <i data-lucide="upload" class="w-4 h-4 text-sky-400"></i>
+                    <span>risk_predictions.csv</span>
+                    <input type="file" id="fileRisk" accept=".csv" class="hidden">
+                </label>
+                <label class="cursor-pointer bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs py-2 px-3 rounded-lg border border-darkborder flex items-center gap-2 transition">
+                    <i data-lucide="upload" class="w-4 h-4 text-emerald-400"></i>
+                    <span>processed_predictions.csv</span>
+                    <input type="file" id="fileProc" accept=".csv" class="hidden">
+                </label>
+            </div>
+        </header>
+
+        <div class="p-6 space-y-6 max-w-[1600px] w-full mx-auto">
+            
+            <!-- BARRA DE FILTROS GLOBAIS -->
+            <section class="bg-darkcard border border-darkborder p-4 rounded-xl flex flex-wrap items-center justify-between gap-4">
+                <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto">
+                    <div class="flex items-center gap-2 text-sm text-slate-400">
+                        <i data-lucide="filter" class="w-4 h-4 text-sky-400"></i>
+                        <span class="font-semibold text-slate-200">Filtros:</span>
+                    </div>
+
+                    <!-- Filtro Tipo de Exame -->
+                    <select id="filterExame" class="bg-slate-900 border border-darkborder text-slate-200 text-xs rounded-lg p-2.5 focus:ring-1 focus:ring-sky-500 outline-none min-w-[160px]">
+                        <option value="ALL">Todos os Exames</option>
+                    </select>
+
+                    <!-- Filtro Prioridade -->
+                    <select id="filterPrioridade" class="bg-slate-900 border border-darkborder text-slate-200 text-xs rounded-lg p-2.5 focus:ring-1 focus:ring-sky-500 outline-none min-w-[160px]">
+                        <option value="ALL">Todas as Prioridades</option>
+                    </select>
+
+                    <!-- Filtro Origem -->
+                    <select id="filterOrigem" class="bg-slate-900 border border-darkborder text-slate-200 text-xs rounded-lg p-2.5 focus:ring-1 focus:ring-sky-500 outline-none min-w-[160px]">
+                        <option value="ALL">Todas as Origens</option>
+                    </select>
+                </div>
+
+                <button id="btnResetFilters" class="text-xs text-sky-400 hover:text-sky-300 font-medium transition flex items-center gap-1">
+                    <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i> Resetar Filtros
+                </button>
+            </section>
+
+            <!-- CARDS KPI -->
+            <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4" id="overview">
+                <div class="bg-darkcard border border-darkborder rounded-xl p-4 flex flex-col justify-between">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs font-medium text-slate-400">Total de Exames</p>
+                            <h3 id="kpiTotalExames" class="text-2xl font-bold text-white mt-1">0</h3>
+                        </div>
+                        <div class="p-2 bg-sky-500/10 text-sky-400 rounded-lg">
+                            <i data-lucide="file-text" class="w-5 h-5"></i>
+                        </div>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mt-3">Registros analisados</p>
+                </div>
+
+                <div class="bg-darkcard border border-darkborder rounded-xl p-4 flex flex-col justify-between">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs font-medium text-slate-400">Taxa de Gargalo Real</p>
+                            <h3 id="kpiTaxaGargalo" class="text-2xl font-bold text-rose-400 mt-1">0%</h3>
+                        </div>
+                        <div class="p-2 bg-rose-500/10 text-rose-400 rounded-lg">
+                            <i data-lucide="alert-triangle" class="w-5 h-5"></i>
+                        </div>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mt-3"><span id="kpiGargalosCount">0</span> exames represados</p>
+                </div>
+
+                <div class="bg-darkcard border border-darkborder rounded-xl p-4 flex flex-col justify-between">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs font-medium text-slate-400">Média Probabilidade Gargalo</p>
+                            <h3 id="kpiProbGargalo" class="text-2xl font-bold text-amber-400 mt-1">0%</h3>
+                        </div>
+                        <div class="p-2 bg-amber-500/10 text-amber-400 rounded-lg">
+                            <i data-lucide="gauge" class="w-5 h-5"></i>
+                        </div>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mt-3">Score médio preditivo do modelo</p>
+                </div>
+
+                <div class="bg-darkcard border border-darkborder rounded-xl p-4 flex flex-col justify-between">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs font-medium text-slate-400">Tempo Médio Espera Sala</p>
+                            <h3 id="kpiTempoSala" class="text-2xl font-bold text-emerald-400 mt-1">0 min</h3>
+                        </div>
+                        <div class="p-2 bg-emerald-500/10 text-emerald-400 rounded-lg">
+                            <i data-lucide="clock" class="w-5 h-5"></i>
+                        </div>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mt-3">Laudo médio: <span id="kpiTempoLaudo" class="text-slate-300 font-semibold">0</span> min</p>
+                </div>
+            </section>
+
+            <!-- GRID DE GRÁFICOS - LINHA 1 -->
+            <section class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div class="lg:col-span-2 bg-darkcard border border-darkborder rounded-xl p-5 flex flex-col">
+                    <div class="flex justify-between items-center mb-4">
+                        <div>
+                            <h3 class="text-sm font-bold text-white flex items-center gap-2">
+                                <i data-lucide="trending-up" class="w-4 h-4 text-sky-400"></i>
+                                Projeção Temporal de Demanda de Exames
+                            </h3>
+                            <p class="text-xs text-slate-400">Volume de demanda previsto ao longo das horas (processed_predictions)</p>
+                        </div>
+                    </div>
+                    <div class="relative flex-1 min-h-[280px]">
+                        <canvas id="chartTimeSeries"></canvas>
+                    </div>
+                </div>
+
+                <div class="bg-darkcard border border-darkborder rounded-xl p-5 flex flex-col">
+                    <div class="mb-4">
+                        <h3 class="text-sm font-bold text-white flex items-center gap-2">
+                            <i data-lucide="pie-chart" class="w-4 h-4 text-purple-400"></i>
+                            Gargalos por Tipo de Exame
+                        </h3>
+                        <p class="text-xs text-slate-400">Proporção de exames com gargalo real</p>
+                    </div>
+                    <div class="relative flex-1 min-h-[280px] flex items-center justify-center">
+                        <canvas id="chartTipoExame"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- GRID DE GRÁFICOS - LINHA 2 -->
+            <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="bg-darkcard border border-darkborder rounded-xl p-5 flex flex-col">
+                    <div class="mb-4">
+                        <h3 class="text-sm font-bold text-white flex items-center gap-2">
+                            <i data-lucide="bar-chart-2" class="w-4 h-4 text-amber-400"></i>
+                            Probabilidade Média de Gargalo por Hora
+                        </h3>
+                        <p class="text-xs text-slate-400">Mapeamento de horários críticos de retenção</p>
+                    </div>
+                    <div class="relative flex-1 min-h-[260px]">
+                        <canvas id="chartHoraDia"></canvas>
+                    </div>
+                </div>
+
+                <div class="bg-darkcard border border-darkborder rounded-xl p-5 flex flex-col">
+                    <div class="mb-4">
+                        <h3 class="text-sm font-bold text-white flex items-center gap-2">
+                            <i data-lucide="layers" class="w-4 h-4 text-emerald-400"></i>
+                            Jornada de Tempo por Prioridade (Minutos)
+                        </h3>
+                        <p class="text-xs text-slate-400">Espera Sala vs Realização vs Espera Laudo</p>
+                    </div>
+                    <div class="relative flex-1 min-h-[260px]">
+                        <canvas id="chartTemposPrioridade"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TABELA DINÂMICA DE DADOS -->
+            <section id="table-section" class="bg-darkcard border border-darkborder rounded-xl p-5 space-y-4">
+                <div class="flex flex-wrap items-center justify-between gap-4">
+                    <div>
+                        <h3 class="text-sm font-bold text-white flex items-center gap-2">
+                            <i data-lucide="database" class="w-4 h-4 text-sky-400"></i>
+                            Registros Detalhados de Risco de Exames
+                        </h3>
+                        <p class="text-xs text-slate-400">Visualização tabular filtrável e paginada</p>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <div class="relative">
+                            <i data-lucide="search" class="w-4 h-4 text-slate-400 absolute left-3 top-2.5"></i>
+                            <input type="text" id="tableSearch" placeholder="Buscar registros..." class="bg-slate-900 border border-darkborder text-slate-200 text-xs rounded-lg pl-9 pr-3 py-2 focus:ring-1 focus:ring-sky-500 outline-none w-48 sm:w-64">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overflow-x-auto border border-darkborder rounded-lg">
+                    <table class="w-full text-left text-xs text-slate-300">
+                        <thead class="bg-slate-900/80 text-slate-400 font-semibold uppercase tracking-wider border-b border-darkborder">
+                            <tr>
+                                <th class="p-3 cursor-pointer hover:text-white" onclick="sortTable('tipo_exame')">Exame <i data-lucide="arrow-up-down" class="inline w-3 h-3"></i></th>
+                                <th class="p-3 cursor-pointer hover:text-white" onclick="sortTable('prioridade')">Prioridade <i data-lucide="arrow-up-down" class="inline w-3 h-3"></i></th>
+                                <th class="p-3 cursor-pointer hover:text-white" onclick="sortTable('origem_paciente')">Origem <i data-lucide="arrow-up-down" class="inline w-3 h-3"></i></th>
+                                <th class="p-3 cursor-pointer hover:text-white" onclick="sortTable('hora_do_dia')">Hora <i data-lucide="arrow-up-down" class="inline w-3 h-3"></i></th>
+                                <th class="p-3 cursor-pointer hover:text-white" onclick="sortTable('tempo_espera_sala_min')">Esp. Sala <i data-lucide="arrow-up-down" class="inline w-3 h-3"></i></th>
+                                <th class="p-3 cursor-pointer hover:text-white" onclick="sortTable('tempo_realizacao_min')">Realização <i data-lucide="arrow-up-down" class="inline w-3 h-3"></i></th>
+                                <th class="p-3 cursor-pointer hover:text-white" onclick="sortTable('tempo_espera_laudo_min')">Esp. Laudo <i data-lucide="arrow-up-down" class="inline w-3 h-3"></i></th>
+                                <th class="p-3 cursor-pointer hover:text-white" onclick="sortTable('probabilidade_gargalo')">Prob. Gargalo <i data-lucide="arrow-up-down" class="inline w-3 h-3"></i></th>
+                                <th class="p-3 cursor-pointer hover:text-white" onclick="sortTable('gargalo_real')">Gargalo Real <i data-lucide="arrow-up-down" class="inline w-3 h-3"></i></th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody" class="divide-y divide-darkborder">
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="flex items-center justify-between text-xs text-slate-400 pt-2">
+                    <span id="tableInfo">Mostrando 0 a 0 de 0 entradas</span>
+                    <div class="flex items-center gap-2">
+                        <button id="btnPrevPage" class="px-3 py-1.5 rounded bg-slate-800 hover:bg-slate-700 text-slate-200 disabled:opacity-50 transition">Anterior</button>
+                        <span id="pageIndicator" class="font-semibold text-slate-300">Pág. 1</span>
+                        <button id="btnNextPage" class="px-3 py-1.5 rounded bg-slate-800 hover:bg-slate-700 text-slate-200 disabled:opacity-50 transition">Próxima</button>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- SCRIPTS -->
+    <script>
+        lucide.createIcons();
+
+        let riskData = [];
+        let procData = [];
+        let filteredRiskData = [];
+
+        let currentPage = 1;
+        const rowsPerPage = 10;
+        let sortColumn = 'probabilidade_gargalo';
+        let sortAsc = false;
+
+        let chartTimeSeriesInstance = null;
+        let chartTipoExameInstance = null;
+        let chartHoraDiaInstance = null;
+        let chartTemposPrioridadeInstance = null;
+
+        Chart.defaults.color = '#94a3b8';
+        Chart.defaults.borderColor = '#334155';
+
+        window.addEventListener('DOMContentLoaded', () => {
+            loadDefaultData();
+            setupEventListeners();
+        });
+
+        async function loadDefaultData() {
+            try {
+                const [respRisk, respProc] = await Promise.all([
+                    fetch('risk_predictions.csv').then(r => r.ok ? r.text() : null),
+                    fetch('processed_predictions.csv').then(r => r.ok ? r.text() : null)
+                ]);
+
+                if (respRisk) parseRiskCSV(respRisk);
+                if (respProc) parseProcCSV(respProc);
+            } catch (err) {
+                console.warn("Ambiente local sem servidor HTTP. Utilize o upload de arquivos.");
+            }
+        }
+
+        function setupEventListeners() {
+            document.getElementById('fileRisk').addEventListener('change', (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    Papa.parse(file, {
+                        header: true,
+                        skipEmptyLines: true,
+                        delimiter: ";",
+                        complete: (results) => parseRiskArray(results.data)
+                    });
+                }
+            });
+
+            document.getElementById('fileProc').addEventListener('change', (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    Papa.parse(file, {
+                        header: true,
+                        skipEmptyLines: true,
+                        delimiter: ";",
+                        complete: (results) => {
+                            procData = processProcRawData(results.data);
+                            renderTimeSeriesChart();
+                        }
+                    });
+                }
+            });
+
+            document.getElementById('filterExame').addEventListener('change', applyFilters);
+            document.getElementById('filterPrioridade').addEventListener('change', applyFilters);
+            document.getElementById('filterOrigem').addEventListener('change', applyFilters);
+            document.getElementById('btnResetFilters').addEventListener('click', resetFilters);
+
+            document.getElementById('tableSearch').addEventListener('input', () => {
+                currentPage = 1;
+                renderTable();
+            });
+
+            document.getElementById('btnPrevPage').addEventListener('click', () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    renderTable();
+                }
+            });
+
+            document.getElementById('btnNextPage').addEventListener('click', () => {
+                const totalPages = Math.ceil(getSearchedData().length / rowsPerPage);
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    renderTable();
+                }
+            });
+        }
+
+        function parseRiskCSV(csvText) {
+            Papa.parse(csvText, {
+                header: true,
+                skipEmptyLines: true,
+                delimiter: ";",
+                complete: (results) => parseRiskArray(results.data)
+            });
+        }
+
+        function parseProcCSV(csvText) {
+            Papa.parse(csvText, {
+                header: true,
+                skipEmptyLines: true,
+                delimiter: ";",
+                complete: (results) => {
+                    procData = processProcRawData(results.data);
+                    renderTimeSeriesChart();
+                }
+            });
+        }
+
+        function parseRiskArray(data) {
+            riskData = processRiskRawData(data);
+            populateFilterDropdowns();
+            initDashboard();
+        }
+
+        function processRiskRawData(data) {
+            return data.map(item => ({
+                tipo_exame: String(item.tipo_exame || '').trim() || 'N/A',
+                prioridade: String(item.prioridade || '').trim() || 'N/A',
+                origem_paciente: String(item.origem_paciente || '').trim() || 'N/A',
+                hora_do_dia: parseInt(item.hora_do_dia) || 0,
+                dia_da_semana: parseInt(item.dia_da_semana) || 0,
+                is_final_semana: parseInt(item.is_final_semana) || 0,
+                tempo_espera_sala_min: parseFloat(item.tempo_espera_sala_min) || 0,
+                tempo_realizacao_min: parseFloat(item.tempo_realizacao_min) || 0,
+                tempo_espera_laudo_min: parseFloat(item.tempo_espera_laudo_min) || 0,
+                gargalo_real: parseInt(item.gargalo_real) || 0,
+                probabilidade_gargalo: parseFloat(item.probabilidade_gargalo) || 0
+            })).filter(d => d.tipo_exame !== 'N/A');
+        }
+
+        function processProcRawData(data) {
+            return data.map(item => ({
+                data_hora: item.data_hora,
+                demanda_prevista_exames: parseFloat(item.demanda_prevista_exames) || 0
+            }));
+        }
+
+        function populateFilterDropdowns() {
+            const exames = [...new Set(riskData.map(d => d.tipo_exame))].filter(Boolean).sort();
+            const prioridades = [...new Set(riskData.map(d => d.prioridade))].filter(Boolean).sort();
+            const origens = [...new Set(riskData.map(d => d.origem_paciente))].filter(Boolean).sort();
+
+            const selExame = document.getElementById('filterExame');
+            const selPrioridade = document.getElementById('filterPrioridade');
+            const selOrigem = document.getElementById('filterOrigem');
+
+            selExame.innerHTML = '<option value="ALL">Todos os Exames</option>';
+            selPrioridade.innerHTML = '<option value="ALL">Todas as Prioridades</option>';
+            selOrigem.innerHTML = '<option value="ALL">Todas as Origens</option>';
+
+            exames.forEach(e => {
+                const opt = document.createElement('option');
+                opt.value = e;
+                opt.textContent = e;
+                selExame.appendChild(opt);
+            });
+
+            prioridades.forEach(p => {
+                const opt = document.createElement('option');
+                opt.value = p;
+                opt.textContent = p;
+                selPrioridade.appendChild(opt);
+            });
+
+            origens.forEach(o => {
+                const opt = document.createElement('option');
+                opt.value = o;
+                opt.textContent = o;
+                selOrigem.appendChild(opt);
+            });
+        }
+
+        function resetFilters() {
+            document.getElementById('filterExame').value = 'ALL';
+            document.getElementById('filterPrioridade').value = 'ALL';
+            document.getElementById('filterOrigem').value = 'ALL';
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const ex = document.getElementById('filterExame').value;
+            const pr = document.getElementById('filterPrioridade').value;
+            const og = document.getElementById('filterOrigem').value;
+
+            filteredRiskData = riskData.filter(d => {
+                const matchEx = (ex === 'ALL' || d.tipo_exame === ex);
+                const matchPr = (pr === 'ALL' || d.prioridade === pr);
+                const matchOg = (og === 'ALL' || d.origem_paciente === og);
+                return matchEx && matchPr && matchOg;
+            });
+
+            currentPage = 1;
+            updateKPIs();
+            renderTipoExameChart();
+            renderHoraDiaChart();
+            renderTemposPrioridadeChart();
+            renderTable();
+        }
+
+        function initDashboard() {
+            filteredRiskData = [...riskData];
+            updateKPIs();
+            renderTimeSeriesChart();
+            renderTipoExameChart();
+            renderHoraDiaChart();
+            renderTemposPrioridadeChart();
+            renderTable();
+        }
+
+        function updateKPIs() {
+            const total = filteredRiskData.length;
+            if (total === 0) {
+                document.getElementById('kpiTotalExames').innerText = '0';
+                document.getElementById('kpiTaxaGargalo').innerText = '0%';
+                document.getElementById('kpiGargalosCount').innerText = '0';
+                document.getElementById('kpiProbGargalo').innerText = '0%';
+                document.getElementById('kpiTempoSala').innerText = '0 min';
+                document.getElementById('kpiTempoLaudo').innerText = '0';
+                return;
+            }
+
+            const gargalos = filteredRiskData.filter(d => d.gargalo_real === 1).length;
+            const taxaGargalo = ((gargalos / total) * 100).toFixed(1);
+            const avgProb = (filteredRiskData.reduce((acc, d) => acc + d.probabilidade_gargalo, 0) / total * 100).toFixed(1);
+            const avgTempoSala = (filteredRiskData.reduce((acc, d) => acc + d.tempo_espera_sala_min, 0) / total).toFixed(1);
+            const avgTempoLaudo = (filteredRiskData.reduce((acc, d) => acc + d.tempo_espera_laudo_min, 0) / total).toFixed(1);
+
+            document.getElementById('kpiTotalExames').innerText = total.toLocaleString('pt-BR');
+            document.getElementById('kpiTaxaGargalo').innerText = `${taxaGargalo}%`;
+            document.getElementById('kpiGargalosCount').innerText = gargalos;
+            document.getElementById('kpiProbGargalo').innerText = `${avgProb}%`;
+            document.getElementById('kpiTempoSala').innerText = `${avgTempoSala} min`;
+            document.getElementById('kpiTempoLaudo').innerText = avgTempoLaudo;
+        }
+
+        function renderTimeSeriesChart() {
+            const ctx = document.getElementById('chartTimeSeries').getContext('2d');
+            if (chartTimeSeriesInstance) chartTimeSeriesInstance.destroy();
+
+            const labels = procData.map(d => d.data_hora);
+            const values = procData.map(d => d.demanda_prevista_exames);
+
+            chartTimeSeriesInstance = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Demanda Prevista de Exames',
+                        data: values,
+                        borderColor: '#0284c7',
+                        backgroundColor: 'rgba(2, 132, 199, 0.15)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.3,
+                        pointRadius: 0,
+                        pointHoverRadius: 5
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { grid: { display: false }, ticks: { maxTicksLimit: 12 } },
+                        y: { beginAtZero: true }
+                    }
+                }
+            });
+        }
+
+        function renderTipoExameChart() {
+            const ctx = document.getElementById('chartTipoExame').getContext('2d');
+            if (chartTipoExameInstance) chartTipoExameInstance.destroy();
+
+            const counts = {};
+            filteredRiskData.forEach(d => {
+                if (d.gargalo_real === 1) {
+                    counts[d.tipo_exame] = (counts[d.tipo_exame] || 0) + 1;
+                }
+            });
+
+            const labels = Object.keys(counts);
+            const values = Object.values(counts);
+
+            chartTipoExameInstance = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: labels.length ? labels : ['Sem Dados'],
+                    datasets: [{
+                        data: values.length ? values : [1],
+                        backgroundColor: ['#38bdf8', '#818cf8', '#c084fc', '#f472b6', '#fb7185', '#34d399'],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { position: 'bottom' } },
+                    cutout: '65%'
+                }
+            });
+        }
+
+        function renderHoraDiaChart() {
+            const ctx = document.getElementById('chartHoraDia').getContext('2d');
+            if (chartHoraDiaInstance) chartHoraDiaInstance.destroy();
+
+            const hourlyMap = Array.from({ length: 24 }, () => ({ sum: 0, count: 0 }));
+
+            filteredRiskData.forEach(d => {
+                if (d.hora_do_dia >= 0 && d.hora_do_dia < 24) {
+                    hourlyMap[d.hora_do_dia].sum += d.probabilidade_gargalo;
+                    hourlyMap[d.hora_do_dia].count += 1;
+                }
+            });
+
+            const labels = hourlyMap.map((_, idx) => `${idx}h`);
+            const values = hourlyMap.map(h => h.count > 0 ? (h.sum / h.count * 100).toFixed(1) : 0);
+
+            chartHoraDiaInstance = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Probabilidade de Gargalo (%)',
+                        data: values,
+                        backgroundColor: values.map(v => v > 50 ? 'rgba(244, 63, 94, 0.75)' : 'rgba(56, 189, 248, 0.75)'),
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { grid: { display: false } },
+                        y: { beginAtZero: true, max: 100 }
+                    }
+                }
+            });
+        }
+
+        function renderTemposPrioridadeChart() {
+            const ctx = document.getElementById('chartTemposPrioridade').getContext('2d');
+            if (chartTemposPrioridadeInstance) chartTemposPrioridadeInstance.destroy();
+
+            const priorityMap = {};
+
+            filteredRiskData.forEach(d => {
+                if (!priorityMap[d.prioridade]) {
+                    priorityMap[d.prioridade] = { sala: 0, real: 0, laudo: 0, count: 0 };
+                }
+                priorityMap[d.prioridade].sala += d.tempo_espera_sala_min;
+                priorityMap[d.prioridade].real += d.tempo_realizacao_min;
+                priorityMap[d.prioridade].laudo += d.tempo_espera_laudo_min;
+                priorityMap[d.prioridade].count += 1;
+            });
+
+            const labels = Object.keys(priorityMap);
+            const dataSala = labels.map(l => (priorityMap[l].sala / priorityMap[l].count).toFixed(1));
+            const dataReal = labels.map(l => (priorityMap[l].real / priorityMap[l].count).toFixed(1));
+            const dataLaudo = labels.map(l => (priorityMap[l].laudo / priorityMap[l].count).toFixed(1));
+
+            chartTemposPrioridadeInstance = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        { label: 'Espera Sala', data: dataSala, backgroundColor: '#38bdf8' },
+                        { label: 'Realização', data: dataReal, backgroundColor: '#34d399' },
+                        { label: 'Espera Laudo', data: dataLaudo, backgroundColor: '#fb7185' }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { position: 'bottom' } },
+                    scales: {
+                        x: { grid: { display: false } },
+                        y: { beginAtZero: true }
+                    }
+                }
+            });
+        }
+
+        function getSearchedData() {
+            const search = document.getElementById('tableSearch').value.toLowerCase();
+            if (!search) return filteredRiskData;
+
+            return filteredRiskData.filter(d => 
+                d.tipo_exame.toLowerCase().includes(search) ||
+                d.prioridade.toLowerCase().includes(search) ||
+                d.origem_paciente.toLowerCase().includes(search)
+            );
+        }
+
+        function sortTable(column) {
+            if (sortColumn === column) {
+                sortAsc = !sortAsc;
+            } else {
+                sortColumn = column;
+                sortAsc = true;
+            }
+            renderTable();
+        }
+
+        function renderTable() {
+            const data = getSearchedData();
+
+            data.sort((a, b) => {
+                let valA = a[sortColumn];
+                let valB = b[sortColumn];
+
+                if (typeof valA === 'string') {
+                    return sortAsc ? valA.localeCompare(valB) : valB.localeCompare(valA);
+                }
+                return sortAsc ? valA - valB : valB - valA;
+            });
+
+            const totalRows = data.length;
+            const totalPages = Math.ceil(totalRows / rowsPerPage) || 1;
+            if (currentPage > totalPages) currentPage = totalPages;
+
+            const startIdx = (currentPage - 1) * rowsPerPage;
+            const paginatedData = data.slice(startIdx, startIdx + rowsPerPage);
+
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+
+            paginatedData.forEach(row => {
+                const tr = document.createElement('tr');
+                tr.className = "hover:bg-slate-800/50 transition border-b border-darkborder/50";
+
+                const probPct = (row.probabilidade_gargalo * 100).toFixed(0);
+                const probBadge = probPct > 70 
+                    ? `<span class="bg-rose-500/10 text-rose-400 px-2 py-0.5 rounded font-bold">${probPct}%</span>`
+                    : probPct > 30 
+                        ? `<span class="bg-amber-500/10 text-amber-400 px-2 py-0.5 rounded font-bold">${probPct}%</span>`
+                        : `<span class="bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded font-bold">${probPct}%</span>`;
+
+                const gargaloBadge = row.gargalo_real === 1 
+                    ? `<span class="bg-rose-500/20 text-rose-300 border border-rose-500/30 px-2 py-0.5 rounded text-[10px] font-semibold">Sim</span>`
+                    : `<span class="bg-slate-800 text-slate-400 border border-slate-700 px-2 py-0.5 rounded text-[10px]">Não</span>`;
+
+                tr.innerHTML = `
+                    <td class="p-3 font-medium text-white">${row.tipo_exame}</td>
+                    <td class="p-3">${row.prioridade}</td>
+                    <td class="p-3">${row.origem_paciente}</td>
+                    <td class="p-3">${row.hora_do_dia}h</td>
+                    <td class="p-3">${row.tempo_espera_sala_min.toFixed(1)} min</td>
+                    <td class="p-3">${row.tempo_realizacao_min.toFixed(1)} min</td>
+                    <td class="p-3">${row.tempo_espera_laudo_min.toFixed(1)} min</td>
+                    <td class="p-3">${probBadge}</td>
+                    <td class="p-3">${gargaloBadge}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+
+            const endIdx = Math.min(startIdx + rowsPerPage, totalRows);
+            document.getElementById('tableInfo').innerText = `Mostrando ${totalRows ? startIdx + 1 : 0} a ${endIdx} de ${totalRows} entradas`;
+            document.getElementById('pageIndicator').innerText = `Pág. ${currentPage} de ${totalPages}`;
+            document.getElementById('btnPrevPage').disabled = (currentPage === 1);
+            document.getElementById('btnNextPage').disabled = (currentPage === totalPages);
+        }
+    </script>
+</body>
+</html>
