@@ -14,7 +14,7 @@ A solução consolida métricas operacionais chave (KPIs), prevê oscilações t
 ## 📸 Interface do Painel
 
 > *Adicione aqui uma imagem/print do seu dashboard finalizado*  
-> `![Dashboard Overview](caminho/para/imagem.png)`
+> `![Dashboard Overview](dashboard/dashboard_preview.png)`
 
 ---
 
