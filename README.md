@@ -79,4 +79,4 @@ Este repositório atua diretamente na ponte entre a engenharia de dados tradicio
 
 1. Faça o clone ou download deste repositório:
    ```bash
-   git clone [https://github.com/JJ-LXXVI/hospital-flow-analytics.git](https://github.com/JJ-LXXVI/hospital-flow-analytics.git)
+   git clone https://github.com/JJ-LXXVI/hospital-flow-analytics.git
